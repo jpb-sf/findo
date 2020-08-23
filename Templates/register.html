@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+
+{% block title %}
+	register
+{% endblock %}
+
+{% block main %}
+<!-- register form post request to server -->
+<div class="centered__h centered__v register__wrapper">
+	<form action="/register" method="post" id="reg_form" class="register__form">
+		<div>
+			<!-- error messages passed from a server -->
+			<p class="test0 gray"> {{ error0 }} </p>
+			<!-- input calls js check function -->
+			<input type="text" class="username margins__input bg__color--inputs inputs" name="username" 
+			placeholder="Enter a username" onkeyup="check(this.value)">
+		</div>
+		<p class="test red">{{ error1 }}</p>
+		<div>
+			<input type="password" class="password margins__input bg__color--inputs inputs" name="password" placeholder="Enter a password">
+		</div>
+		<p class="test2 red">{{ error2 }}</p>
+		<div>
+			<input type="password" class="confirmation margins__input bg__color--inputs inputs" name="confirmation" placeholder="Confirm password">
+		</div>
+		<p class="test3 red">{{ error3 }}</p>
+		<button type="submit" class="btn__base btn__1 bg__color--1">Register</button>
+		<p class="register_error"></p>
+	</form>
+	<h6 class="h6">Already have an account?</h6>
+	<!-- link to login page -->
+	<a href="/login">Sign in</a>
+	<hr class="rule__bottom">
+</div>
+
+{% endblock %}

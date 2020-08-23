@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block title %}
+	login
+{% endblock %}
+{% block main %}
+<div class="centered__h centered__v">
+	<form action="/login" method="post" id="login_form">
+		<div>
+			<input type="text" name="username" placeholder="Username"  class="margins__input bg__color--inputs inputs">
+		</div>
+		<div>
+			<input type="password" name="password" placeholder="Password" autocomplete="new-password" class="margins__input bg__color--inputs inputs">
+		</div>
+		<button type="submit" class="btn__base btn__1 bg__color--1">Log in</button>
+	</form>
+	<!-- <hr class="rule_login"> -->
+	<a href="/register" class="color__1">Forgot your password?</a>
+	<hr class="rule__login">
+	<h6 class="h6">Don't have an account?</h6>
+	<a href="/register">Sign up</a>
+	<hr class="rule__bottom">
+</div>
+
+{% endblock %}

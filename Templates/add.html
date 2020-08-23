@@ -1,0 +1,65 @@
+{% extends "layout.html" %}
+
+{% block title %}
+	login
+{% endblock %}
+{% block main %}
+<div class="nav__sub">
+	<h4 class="h4 nav__header">Add your stuff</h4>
+	<div class="nav__sub--btncontainer">
+		<button onclick="window.location.href='/add'" class="btn__nav pointer">+ add new</button>
+		<button onclick="window.location.href='/all'" class="btn__nav pointer">browse all</button>
+	</div>
+</div>
+<div class="edit__wrapper">
+	<div class="edit__container--wrapper">
+		<div>
+			<p class="edit__form mt__minus1">Name of item:</p>
+			<div class="add__container edit__container--mod">
+			<form action="/add" method="post" id="add_form">
+				<div class="bg__color--3 edit__tab category__border_radius"></div>
+					<!-- <div class="edit__tab category__border_radius"></div> -->
+					<div class="add__header category__border_radius">
+						<input type="text" name="item" placeholder="Beach towels, etc" class="edit__form--item mt__half form__input--focus">
+					</div>
+				<div class="edit__form">
+					<p class="form__input--headers mt__2">Select category for item:</p>
+					<select name="category" id="category" class="">
+						<option value="" selected disabled><span>Select category</span></option>
+						<option name="household" value="household">Household</option>
+						<option name="paperwork" value="paperwork">Paperwork</option>
+						<option name="keepsakes" value="keepsakes">Keepsakes</option>
+						<option name="hobbies" value="hobbies">Hobbies</option>
+						<option name="cooking" value="cooking">Cooking</option>
+						<option name="yard" value="yard">Yard</option>
+						<option name="tools" value="tools">Tools</option>
+						<option name="holiday" value="holiday">Holiday</option>
+						<option name="clothing" value="clothing" >Clothing</option>
+						<option name="electornics" value="electronics">Electronics</option>
+						<option name="misc" value="misc">Misc</option>
+					</select>
+					<p class="red">{{ error0 }}</p>
+					
+					<p class="red margin__top--2">{{ error1 }}</p>
+					<!-- <p>Description of item (optional)</p>
+					<textarea name="description" id="description" cols="45" rows="4" placeholder="Personal size and family size" class="border__none"></textarea> -->
+					<p class="form__input--headers margin__top--2">Enter Location:</p>
+					<input type="text" name="location" placeholder="Garage" class="form__input--focus">
+					<p class="form__input--headers margin__top--2">Enter comments: (optional)</p>
+					<textarea name="comments" id="comments" name="comments" class="comments" placeholder="In Gray tub marked 'summer' in the back end on the left side." class="form__input--focus"></textarea>
+					<br>
+					<div class="add__btn--container">
+						<input type="submit" value="add" class="btn__base btn__add bg__color--1 pointer">
+						<input type="button" value="cancel" onclick="window.location.href='/'" class="btn__base btn__cancel pointer">
+					</div>
+				</div>
+			</form>
+			</div>
+		</div>
+	</div>
+	{% if side == 'sidebar' %}
+    	{% include 'sidebar.html' %}
+    {% endif %}
+	</div>
+</div>
+{% endblock %}

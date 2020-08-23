@@ -1,0 +1,74 @@
+{% extends "layout.html" %}
+
+{% block title %}
+	edit
+{% endblock %}
+{% block main %}
+
+
+<div class="nav__sub">
+	<h4 class="h4 nav__header">Edit</h4>
+	<div class="nav__sub--btncontainer">
+		<button onclick="window.location.href='/add'" class="btn__nav pointer">+ add new</button>
+		<button onclick="window.location.href='/all'" class="btn__nav pointer">browse all</button>
+	</div>
+</div>
+
+<div class="edit__wrapper">
+	<div class="edit__container--wrapper">
+		<div class="edit__container">
+			<div class="{{ category }} edit__tab category__border_radius"></div>
+			<div class="category__header category__border_radius">
+				<h4 class="pos__abs ml__edit mt__half h4__white">Edit: {{ userData[0]['item'] }}</h4>
+			</div>
+			<form method="post" id="add_form3" class="edit__form">
+				<p class="color__5 mt__1">Category</p>
+				<select name="category" id="category" class="mt__m1">
+					<option value="" selected disabled><span>Select category</span></option>
+					<option name="household" value="household">Household</option>
+					<option name="paperwork" value="paperwork">Paperwork</option>
+					<option name="keepsakes" value="keepsakes">Keepsakes</option>
+					<option name="hobbies" value="hobbies">Hobbies</option>
+					<option name="cooking" value="cooking">Cooking</option>
+					<option name="yard" value="yard">Yard</option>
+					<option name="tools" value="tools">Tools</option>
+					<option name="holiday" value="holiday">Holiday</option>
+					<option name="clothing" value="clothing" >Clothing</option>
+					<option name="electornics" value="electronics">Electronics</option>
+					<option name="misc" value="misc">Misc</option>
+				</select>
+				<!-- Warning element -->
+				<p class="red no_category"></p>
+				<!-- <p>Description (optional)</p>
+				<textarea name="description" id="description" cols="30" rows="4">{{ userData[0]['description'] }}</textarea> -->
+				<p class="color__5 mt__2">Location</p>
+				<input type="text" name="location" id="location" value="{{ userData[0]['location']}}"></input>
+				<p class="color__5 mt__2">Comments (optional)</p>
+				<textarea name="comments" id="comments" name="comments" class="comments">{{ userData[0]['comments']}}</textarea>
+				<br>
+			</form>
+			<!-- Make changes button sends item id to js function which grabs input data and passes to the back end -->
+			<div class="edit__btn--container">
+				<div id="{{ userData[0]['itemid'] }}">
+					<button type="click" onclick="edit(this.parentNode.id)" class="btn__base btn__cancel pointer">Make Changes</button>
+				</div>
+				<!-- Cancel button retreives the category oage -->
+				<div id="{{ category }}">
+					<button onclick="display(this.parentNode.id)" class="btn__base btn__cancel pointer">Cancel</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	{% if side == 'sidebar' %}
+		{% include 'sidebar.html' %}
+	{% endif %}
+</div>
+
+{% endblock %}
+
+
+
+<!-- Note to self. Does this need to go to a JS function? -->
+<!-- No. The reason why I did it this way, instead of a simple form post request, 
+was because I wanted to route user to the specific category page,
+and Flask's render_template can't take a variable as far as I know -->

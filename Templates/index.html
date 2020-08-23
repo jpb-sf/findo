@@ -1,0 +1,75 @@
+{% extends "layout.html" %}
+{% block title %}
+	index
+{% endblock%}
+{% block main %}
+{% if session.user_id %}
+
+
+<div class="nav__sub">
+	<h4 class="h4 nav__header nav__header--adj">Find your stuff</h4>
+	<div class="nav__sub--btncontainer">
+		<button onclick="window.location.href='/add'" class="btn__nav pointer">+ add new</button>
+		<button onclick="window.location.href='/all'" class="btn__nav pointer">browse all</button>
+	</div>
+</div>
+<div class="index__wrapper">
+	<a href="/category/household" class="pointer index__container textdec__none link__color--white">
+		<div class="tab household"></div>
+		Household
+	</a>
+	<a href="/category/cooking" class="pointer index__container textdec__none link__color--white">
+		<div class="tab cooking"></div>
+		Cooking
+	<a href="/category/hobbies" class="pointer index__container textdec__none link__color--white">
+		<div class="tab hobbies"></div>
+		Hobbies
+	</a>
+	<a href="/category/electronics" class="pointer index__container textdec__none link__color--white">
+		<div class="tab electronics"></div>
+		Electronics
+	</a>
+	<a href="/category/holiday" class="pointer index__container textdec__none link__color--white">
+		<div class="tab holiday"></div>
+		Holiday
+	</a>
+	<a href="/category/tools" class="pointer index__container textdec__none link__color--white">
+		<div class="tab tools"></div>
+		Tools
+	</a>
+	<a href="/category/paperwork" class="pointer index__container textdec__none link__color--white">
+		<div class="tab paperwork"></div>
+		Paperwork
+	</a>
+	<a href="/category/yard" class="pointer index__container textdec__none link__color--white">
+		<div class="tab yard"></div>
+		Yard
+	</a>
+	<a href="/category/clothing" class="pointer index__container textdec__none link__color--white">
+		<div class="tab clothing"></div>
+		Clothing
+	</a>
+	<a href="/category/keepsakes" class="pointer index__container textdec__none link__color--white">
+		<div class="tab keepsakes"></div>
+		Keepsakes
+	</a>
+	<a href="/category/work" class="pointer index__container textdec__none link__color--white">
+		<div class="tab work"></div>
+		Work
+	</a>
+	<a href="/category/misc" class="pointer index__container textdec__none link__color--white">
+		<div class="tab misc"></div>
+		Misc
+	</a>
+
+</div>
+
+
+
+{% endif %}
+{% endblock%}
+
+
+
+
+
