@@ -1,5 +1,6 @@
 console.log(window.innerWidth)
 
+
 let toggleStatus = false;
 	
 let toggle = function() {
@@ -62,7 +63,7 @@ let toggle = function() {
 	}
 }
 
-
+// Don't think I need AJAX here
 // Function gathers updated input and makes post request to server to input edited data in the db
 function edit(itemid)
 {
@@ -101,16 +102,16 @@ function edit(itemid)
 		}
 	
 		let data = {category: category, itemId: itemId, location: location, comments: comments};
-		
 		let send = JSON.stringify(data);
-		console.log(send)
-		xhttp.open("post", "/change");
+		
+		xhttp.open("post", "/change", true);
 		xhttp.setRequestHeader('Content-Type', 'application/json');
 		xhttp.send(send);
 	}
 }
-
-
+// 
+// Maybe keep, but update. CSS could be easier. Look how to combine with following event listener funciton for 'submit' event. But I know I wanted instant response AJAX to username being taken so that would 
+// still have to be separate 
 // Function for username registration validation
 function check(value) 
 {	
@@ -124,12 +125,11 @@ function check(value)
 
 	else if (value.length < 3 && !value.length == 0)
 	{	
-		var delayInMilliseconds = 1000;
 		setTimeout(function() {
 			test.style.display = "block";
 			test.innerHTML = "Must be at least 3 characters";
 			test.setAttribute("class", "test gray");
-		}, delayInMilliseconds);
+		}, 100);
 	}
 	else 
 	{
@@ -146,7 +146,6 @@ function check(value)
 			{	
 				let data;
 				data = JSON.parse(xhttp.responseText);
-				// test  = document.querySelector('.test');
 
 				// If username is taken
 				if (data == false)
@@ -171,7 +170,23 @@ function check(value)
 	}
 }
 
-// // Prevent Registration form from submitting if...
+window.addEventListener('DOMContentLoaded', function(event)
+{
+	if (window.location.href.match(/(https:\/\/(www\.)?app1\.jasonbergland\.com\/edit\/)\d+/))
+	{	
+		let category = document.querySelector('#current').value;
+		console.log(category)
+		let option = document.getElementsByName(category)[0];
+		console.log(option)
+		let selected = document.createAttribute("selected")
+		option.setAttributeNode(selected);
+	}
+
+
+})
+
+// Probably need i
+// Prevent Registration form from submitting if...
 document.querySelector("#reg_form").addEventListener("submit", function(event)
 {	
 	let password, confirmation, user, test2;
@@ -208,8 +223,9 @@ document.querySelector("#reg_form").addEventListener("submit", function(event)
 		test3.setAttribute("class", "test3 red");
 		return false;
 	}	
-});
+})
 
+//Questionable 
 // Function receives category value, makes a Get request, generates new categorgy page
 function display(value)
 {	
@@ -217,20 +233,14 @@ function display(value)
     		
 }
 
-
+// Do need (2/3/21)
 // Modify function determines if edit, or delete request, and routes accordingly.
 function modify(itemId, action)
 {	
 	// Get request function and handler
 	let makeRequest = function()
-	{
-		// Create params to pass in with Get request
-		let param = "itemId" + "=" + itemId;
-		let param2 = "action" + "=" + action
-
+	{	
 		const xhttp = new XMLHttpRequest();
-
-		xhttp.open("get", "/modify" + "?" + param + "&" + param2)
 
 		// When ready
 		xhttp.onreadystatechange = function()
@@ -255,9 +265,11 @@ function modify(itemId, action)
 	    			return window.location = '/edit/' + data
 	    		}
 			}
-
 		}
-		xhttp.send(null)
+
+		xhttp.open("post", "/modify", true);
+		xhttp.setRequestHeader('Content-Type', 'application/json');
+		xhttp.send(JSON.stringify({itemId: itemId, action: action}));
 	}
 	
 	if (action == "delete")
@@ -274,13 +286,11 @@ function modify(itemId, action)
 	else if (action == "edit")
 	{	
 		return makeRequest();
-	
+	// In case value is modified other than delete or edit, return 'false'
 	} else {
 		return false
 	}
 }
-
-
 
 
 

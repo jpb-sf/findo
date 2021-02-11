@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    sorry
+{% endblock %}
+
+{% block main %}
+<div class="nav__sub">
+	<h4 class="h4 nav__header">{{ category|capitalize }}</h4>
+	<div class="nav__sub--btncontainer">
+		<button onclick="window.location.href='/add'" class="btn__nav pointer">+ add new</button>
+		<button onclick="window.location.href='/all'" class="btn__nav pointer">browse all</button>
+	</div>
+</div>
+<div class="category__wrapper">
+	<div class="category__container--wrapper">
+		<p class="category__empty"> {{ message }} </p>
+	</div>
+{% include 'sidebar.html' %}
+{% endblock %}

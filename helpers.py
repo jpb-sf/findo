@@ -2,101 +2,94 @@ import os
 import sqlite3
 from flask import redirect, render_template, request, session
 from functools import wraps
+from dbconnect import DataBaseConnect
 
 # Helper functions ==========================================
 
+# Converts SQL query into list of dictionary values
+def db_extract(query):
+
+    if query:
+        num_cols = len(query.description)
+        col_names = [query.description[i][0] for i in range(num_cols)]
+        data_list = []
+
+        for row in query.fetchall():
+            rows = {}
+            for i in range(num_cols):
+                # current_key = 
+                rows[col_names[i]] = row[col_names[i]]
+            data_list.append(rows)
+
+        return data_list
+
+
 def login_required(f):
-	@wraps(f)
-	def decorated_function(*args, **kwargs):
-		if session.get("user_id") is None:
-			return redirect("/login")
-		return f(*args, **kwargs)
-	return decorated_function
+    @wraps(f)
+    def decorated_function(*args, **kwargs):
+        if session.get("user_id") is None:
+            return redirect("/login")
+        return f(*args, **kwargs)
+    return decorated_function
 
-
-def get_user():
-    conn = sqlite3.connect('final.db')
-    conn.row_factory = sqlite3.Row
-    db = conn.cursor()
+# Returns username from user_id value
+def get_user(db, session_usr_id):
 
     # Get curent username
     if session['user_id']:
-        userid = session['user_id']
-        db.execute("SELECT username FROM users WHERE id=?", (userid,))
-        get_user = db.fetchone()
-        user = get_user[0]
+        db.execute("SELECT username FROM users WHERE id=%s", (session_usr_id,))
+        user = db.fetchone()['username']
 
         return user
 
-    # If no userid, log user out
+    # If no userid, s user out
     else:
         return logout(); 
+ 
 
-# Helper function that retreives category id, when category name is supplied
-def get_cat_id(category):
-    conn = sqlite3.connect('final.db')
-    conn.row_factory = sqlite3.Row
-    db = conn.cursor()
 
-    # "Incorrect number of bindings supplied." The current statement uses 1, and there are 8 supplied
-    # Learn another way to this. ? and tuple with a comma. Comma is a must even if only one
-
-    db.execute("SELECT catid FROM categories WHERE catname=:category", {'category': category})
-    get = db.fetchone()
-    get_cat_id = dict(zip([c[0] for c in db.description], get))
-    catId = int(get_cat_id['catid'])
-    return catId
-
-# Function returns list of data from a row from the Store table matching itemid
-def item_query(itemId):
-    conn = sqlite3.connect('final.db')
-    conn.row_factory = sqlite3.Row
-    db = conn.cursor()
-
+# Returns category id (cat_id) value from the category name value
+def get_cat_id(category, db):
+    catId = None
     try:
-        db.execute("SELECT * FROM store WHERE itemid=:itemid", {'itemid': itemId})
-          # Collect data and insert into a list of dicts
-        numcols = len(db.description)
-        colnames = [db.description[i][0] for i in range(numcols)]
-        itemData = []
-
-        for row in db.fetchall():
-            result = {}
-            for i in range(numcols):
-                result[colnames[i]] = row[i]
-            itemData.append(result)
-        return itemData
-
+        db.execute("SELECT catid FROM categories WHERE category=%(category)s", {'category': category})
+        catId = db.fetchone()['catid']
+        return catId
     except Exception as e:
         print(e)
-        return 'False'
+        return catId
+
+
+def item_query(itemId, db):
+    item_data = None
+    # Check that item_id does contain only digits
+    if str.isdigit(str(itemId)):
+        try:
+            # db.execute("SELECT * FROM store WHERE itemid=%(itemid)s", {'itemid': itemId})
+            db.execute("SELECT item, itemid, location, comments, userid, store.catid, category FROM store INNER JOIN categories on categories.catid=store.catid WHERE itemid=%(itemid)s", {'itemid': itemId})
+              # Collect data and insert into a list of dicts
+            item_data = db_extract(db)
+
+            return item_data
+
+        except Exception as e:
+            print(e)
+            return item_data
+    else:
+        return item_data
 
 # Function returns all items in a specific category belonging to current user
-def category_query(catid):
-    conn = sqlite3.connect('final.db')
-    conn.row_factory = sqlite3.Row
-    db = conn.cursor()
-
-    userId = session['user_id']
+def category_query(db, catid, session_usr_id):
 
     try:
-        db.execute("SELECT * FROM store WHERE userid=:userid AND category=:catid", \
-            {'userid': userId, 'catid': catid})
-        numcols = len(db.description)
-        colnames = [db.description[i][0] for i in range(numcols)]
-        catData = []
+        db.execute("SELECT * FROM store WHERE userid=%(userid)s AND catid=%(catid)s", \
+            {'userid': session_usr_id, 'catid': catid})
 
-        for row in db.fetchall():
-            result = {}
-            for i in range(numcols):
-                result[colnames[i]] = row[i]
-            catData.append(result)
-        return catData
+        cat_data = db_extract(db)
+
+        return cat_data
 
     except Exception as e:
         print(e)
         return 'False'
 
-
-
-            
