@@ -1,297 +1,361 @@
 console.log(window.innerWidth)
 
+// Script in one and only script for the findo app.
+// Last update 9/7/21
 
-let toggleStatus = false;
-	
-let toggle = function() {
-	let greeting = document.querySelector('.nav__greeting--wrapper');
-	let menu = document.querySelector('.nav__mobilemenu--wrapper');
-	let linksArray = document.querySelectorAll('.nav__mobilemenu--wrapper a');
-	let bulletArray = document.querySelectorAll('.nav__mobilemenu--wrapper li');
-	let rule = document.querySelector('.rule__mobilemenu');
-	let signout = document.querySelector('.nav__mobilemenu--wrapper h5');
-	let header = document.querySelector('.nav__header');
+function init() {
 
-	let linksLen = linksArray.length;
-	let bulLen = bulletArray.length;
-	
-	if (toggleStatus === false)
-	{	
-		// header.style.visibility = "hidden";
-		greeting.style.height = "2.8rem"
-		menu.style.visibility = "visible";
-		menu.style.width = "100%";
-		menu.style.height = "21rem";
-		rule.style.opacity = "1";
-		signout.style.opacity = "1";
-		header.style.visibility = "hidden"
-		
-		for (let i = 0; i < linksLen; i++)
-		{
-			linksArray[i].style.opacity = "1";
-			linksArray[i].style.visibility ="visible";
-		}
+	// toggle mobile menu ================
 
-		for (let i = 0; i < bulLen; i++)
-		{
-			bulletArray[i].style.opacity = "1";
-		}
-		
-		toggleStatus = true;
-		
-	} else {
-		greeting.style.height = "4.8rem"
-		menu.style.visibility = "hidden";
-		menu.style.width = "0rem";
-		menu.style.height = "0rem";
-		rule.style.opacity = "0";
-		signout.style.opacity = "0";
-		header.style.visibility = "visible"
-
-
-		for (let i = 0; i < linksLen; i++)
-		{
-			linksArray[i].style.opacity = "0";
-			linksArray[i].style.visibility ="hidden";
-		}
-
-		for (let i = 0; i < bulLen; i++) {
-			bulletArray[i].style.opacity = "0";
-		}
-		
-		toggleStatus = false;
-	}
-}
-
-// Don't think I need AJAX here
-// Function gathers updated input and makes post request to server to input edited data in the db
-function edit(itemid)
-{
-	let itemId, location, comments, category, categoryName;
-	category = document.querySelector('#category').value
-	itemId = itemid;        
-	// description = document.querySelector('#description').value;
-	location = document.querySelector('#location').value;
-	comments = document.querySelector('#comments').value;
-
-	if (category == "")
+	let toggleStatus = false;
+	// Function reveals or hides mobile menu depending on click event. 
+	let toggle = function() 
 	{
-		let error = document.querySelector('.no_category');
-		error.innerHTML = "Please select a category";
-	}
-	else
-	{	
-		// Send post request
-		const xhttp = new XMLHttpRequest();
-		
-		// when ready
-		xhttp.onreadystatechange = function()
-		{	
-			data = xhttp.responseText;
-			if (xhttp.readyState == 4 && xhttp.status == 200)
+		const menu = document.querySelector('.nav__mobilemenu--wrapper');
+		if (menu)
+		{
+			if (toggleStatus === false)
 			{	
-				if (data == "True")
-				{
-					return window.location = '/category/' + category	
-				}
-				else if (data == "False")
-				{
-					return window.location = '/'
-				}
+				menu.style.display = "grid";
+				toggleStatus = true;
+				
+			} else {
+				
+				menu.style.display = "none";
+				toggleStatus = false;
 			}
 		}
-	
-		let data = {category: category, itemId: itemId, location: location, comments: comments};
-		let send = JSON.stringify(data);
-		
-		xhttp.open("post", "/change", true);
-		xhttp.setRequestHeader('Content-Type', 'application/json');
-		xhttp.send(send);
 	}
-}
-// 
-// Maybe keep, but update. CSS could be easier. Look how to combine with following event listener funciton for 'submit' event. But I know I wanted instant response AJAX to username being taken so that would 
-// still have to be separate 
-// Function for username registration validation
-function check(value) 
-{	
-	let test = document.querySelector('.test');
 
-	if (value == "")
+	let menuHamburger = document.querySelector('.btn__hamburger')
+	if (menuHamburger)
 	{
-		test.innerHTML = "";
-		return false;
+		menuHamburger.addEventListener('click', toggle);
 	}
 
-	else if (value.length < 3 && !value.length == 0)
+	// Changes html button text values depending on browser window width
+	function navBtnsChange(navBtns)
 	{	
-		setTimeout(function() {
-			test.style.display = "block";
-			test.innerHTML = "Must be at least 3 characters";
-			test.setAttribute("class", "test gray");
-		}, 100);
-	}
-	else 
-	{
-		let params = "username" + "=" + value;
-		const xhttp = new XMLHttpRequest();
-
-		// Send paramaters to server function 'check'
-		xhttp.open("get", "/check" + "?" + params, true);
-		// xhttp.setRequestHeader('Content-Type', 'text/plain');
-		
-		xhttp.onreadystatechange = function()
+		if (navBtns[0])
 		{
-			if (xhttp.readyState == 4 && xhttp.status == 200)
+			if (window.innerWidth <= 675)
 			{	
-				let data;
-				data = JSON.parse(xhttp.responseText);
+				navBtns[0].innerHTML = "+Add";
+				navBtns[1].innerHTML = "Browse"
+			}
+			else
+			{	
+				navBtns[0].innerHTML = "+Add new";
+				navBtns[1].innerHTML = "Browse all";
+			}
+		}
+	}
+	// Onload function calls navBtnsChange and adds resize listener
+	function navBtnsEvents() 
+	{	
+		const navBtns = document.getElementsByClassName('nav__btn');
+		// if exists
+		if (navBtns[0]) 
+		{	
+			// Function called onload
+			navBtnsChange(navBtns)
+		}
+		// Listener added
+		window.addEventListener('resize', () => 
+		{
+			navBtnsChange(navBtns)
+		})
+	}
 
-				// If username is taken
-				if (data == false)
-				{	
-					test.style.display = "block";
-					test.innerHTML = "Username already taken";
-					test.setAttribute("class", "test red");
+	// Pre-selects selected value of an HTML option based on category value from server
+	function selectOption()
+	{
+		// If edit page
+		if (window.location.href.match(/(https:\/\/app1\.jasonbergland\.com\/edit\/)\d+/))
+		{	
+			// Get current category id set by server
+			let category = document.querySelector('#current').value;
+			console.log(category)
+			// Find the correspongind HTML <option> value
+			let option = document.getElementsByName(category)[0];
+			console.log(option)
+			option.setAttribute('selected', 'selected');
+		}
+	}
+	// Manages registration error messages process upon a user submit event
+	function verifyReg()
+	{
+		if (window.location.href === "https://app1.jasonbergland.com/register" ) {
+			
+			document.querySelector("#reg_form").addEventListener("submit", () =>
+			{	
+				console.log('verifReg')
+				let password, confirmation, user, test2,test3;
+				password  = document.querySelector('.password');
+				confirmation = document.querySelector('.confirmation');
+				user = document.querySelector('.username');
+				test2 = document.querySelector('.test2');
+				test3 = document.querySelector('.test3');
+
+				// If username is less than 3 characters, prevent submit
+				if (user.value.length < 3) 
+				{
+					event.preventDefault();
 					return false;
 				}
 
-				// If username is not taken
-				else if (data == true)
-				{	
-					test.style.display = "block";
-					test.innerHTML = "Username is available";
-					test.setAttribute("class", "test green");
-					return true;
+				// If password is less than 3 characters, prevent submit
+				if (password.value.length < 3)
+				{
+					event.preventDefault();
+					test2.style.display="block";
+					test2.innerHTML = "Password must be at least 3 characters";
+					test2.setAttribute("class", "test2 red");
+
+					return false;
+				} else {
+					test2.innerHTML = "";
 				}
-			}
+
+				// If password and confirmation don't match, prevent submit
+				if (password.value != confirmation.value)
+				{
+					event.preventDefault();
+					test3.style.display="block";
+					test3.innerHTML = "Passwords don't match";
+					test3.setAttribute("class", "test3 red");
+					return false;
+				}	
+			})
 		}
-		xhttp.send(null);
 	}
-}
-
-window.addEventListener('DOMContentLoaded', function(event)
-{
-	if (window.location.href.match(/(https:\/\/(www\.)?app1\.jasonbergland\.com\/edit\/)\d+/))
+	// Manages registration username error message in real time via ajax request
+	function checkUserName(value) 
 	{	
-		let category = document.querySelector('#current').value;
-		console.log(category)
-		let option = document.getElementsByName(category)[0];
-		console.log(option)
-		let selected = document.createAttribute("selected")
-		option.setAttributeNode(selected);
-	}
+		let test = document.querySelector('.test');
 
-
-})
-
-// Probably need i
-// Prevent Registration form from submitting if...
-document.querySelector("#reg_form").addEventListener("submit", function(event)
-{	
-	let password, confirmation, user, test2;
-	password  = document.querySelector('.password');
-	confirmation = document.querySelector('.confirmation');
-	user = document.querySelector('.username');
-	test2 = document.querySelector('.test2');
-
-	// If username is less than 3 characters, prevent submit
-	if (user.value.length < 3) 
-	{
-		event.preventDefault();
-		return false;
-	}
-
-	// If password is less than 3 characters, prevent submit
-	if (password.value.length < 3)
-	{
-		event.preventDefault();
-		test2.innerHTML = "Password must be at least 3 characters";
-		test2.setAttribute("class", "test2 red");
-
-		return false;
-	} else {
-		test2.innerHTML = "";
-	}
-
-	// If password and confirmation don't match, prevent submit
-	if (password.value != confirmation.value)
-	{
-		event.preventDefault();
-		let test3 = document.querySelector('.test3');
-		test3.innerHTML = "Passwords don't match";
-		test3.setAttribute("class", "test3 red");
-		return false;
-	}	
-})
-
-//Questionable 
-// Function receives category value, makes a Get request, generates new categorgy page
-function display(value)
-{	
-	return window.location = '/category/' + value;
-    		
-}
-
-// Do need (2/3/21)
-// Modify function determines if edit, or delete request, and routes accordingly.
-function modify(itemId, action)
-{	
-	// Get request function and handler
-	let makeRequest = function()
-	{	
-		const xhttp = new XMLHttpRequest();
-
-		// When ready
-		xhttp.onreadystatechange = function()
+		if (value == "")
 		{
-			if (xhttp.readyState == 4 && xhttp.status == 200)
-			{ 
-				let data = xhttp.responseText;
-				// If action is delete, and item is correctly deleted, backend will return True.
-				if (data == "True")
-				{	
-					return document.location.reload();
-				}
-				
-				else if (data == "False")
-	    		{
-	    			return window.location = '/login'
-	    		}
-	    		// Else, if action is edit, and backend confirms user owns it
-	    		// item id is returned and user is rerouted to correct edit page/form
-	    		else
-	    		{
-	    			return window.location = '/edit/' + data
-	    		}
-			}
+			test.innerHTML = "";
+			test.style.display = "none";
+			return false;
 		}
 
-		xhttp.open("post", "/modify", true);
-		xhttp.setRequestHeader('Content-Type', 'application/json');
-		xhttp.send(JSON.stringify({itemId: itemId, action: action}));
+		else if (value.length < 3 && !value.length == 0)
+		{	
+			setTimeout(function() {
+				test.style.display = "block";
+				test.innerHTML = "Must be at least 3 characters";
+				test.setAttribute("class", "test gray");
+			}, 100);
+		}
+		else 
+		{
+			let param = "username" + "=" + value;
+			const xhttp = new XMLHttpRequest();
+
+			// Send paramaters to server function 'check'
+			xhttp.open("get", "/check" + "?" + param, true);
+			// xhttp.setRequestHeader('Content-Type', 'text/plain');
+			
+			xhttp.onreadystatechange = function()
+			{
+				if (xhttp.readyState == 4 && xhttp.status == 200)
+				{	
+					let data;
+					data = JSON.parse(xhttp.responseText);
+
+					// If username is taken
+					if (data == false)
+					{	
+						test.style.display = "block";
+						test.innerHTML = "Username already taken";
+						test.setAttribute("class", "test red");
+						return false;
+					}
+
+					// If username is not taken
+					else if (data == true)
+					{	
+						test.style.display = "block";
+						test.innerHTML = "Username is available";
+						test.setAttribute("class", "test green");
+						return true;
+					}
+				}
+			}
+			xhttp.send(null);
+		}
 	}
-	
-	if (action == "delete")
+	// Browser fuctions to be called onload
+	window.onload = navBtnsEvents();
+	window.onload = selectOption();
+	window.onload = verifyReg();
+
+	// Upon edit submission, function gathers updated input and makes post request to server for DB updating / 
+	// JS then hangles redirecting user to related category page (easier to do with jinja and ajax, then a normal form post)
+	function change(itemid)
 	{
+	
+		let itemId, location, comments, category, categoryName;
+		category = document.querySelector('#category').value
+		itemId = itemid;        
+		// description = document.querySelector('#description').value;
+		location = document.querySelector('#location').value;
+		comments = document.querySelector('#comments').value;
+
+		if (category == "")
+		{
+			let error = document.querySelector('.no_category');
+			error.innerHTML = "Please select a category";
+		}
+		else
+		{	
+			// Send post request
+			const xhttp = new XMLHttpRequest();
+			
+			// when ready
+			xhttp.onreadystatechange = function()
+			{	
+				data = xhttp.responseText;
+				if (xhttp.readyState == 4 && xhttp.status == 200)
+				{	
+					if (data == "True")
+					{
+						return window.location = '/category/' + category	
+					}
+					else if (data == "False")
+					{
+						return window.location = '/'
+					}
+				}
+			}
+		
+			let data = {category: category, itemId: itemId, location: location, comments: comments};
+			let send = JSON.stringify(data);
+			
+			xhttp.open("post", "/change", true);
+			xhttp.setRequestHeader('Content-Type', 'application/json');
+			xhttp.send(send);
+		}
+	}
+
+
+
+	// Function receives category value, generates new categorgy page with get request
+	function cancel(value)
+	{	
+		return window.location = '/category/' + value;
+	}
+
+	// Function deletes entry, reloads page. AJAX is used to have access to window.alert() method during the request handling.
+	function deleteEntry(itemId)
+	{	
+		// Function sends AJAX request and handles the response
+		let makeRequest = function()
+		{	
+			const xhttp = new XMLHttpRequest();
+
+			// When ready
+			xhttp.onreadystatechange = function()
+			{
+				if (xhttp.readyState == 4 && xhttp.status == 200)
+				{ 
+					let data = xhttp.responseText;
+					// If  item is correctly deleted, backend will return True.
+					if (data == "True")
+					{	
+						return document.location.reload();
+					}
+					
+					else if (data == "False")
+		    		{	
+		    			alert("There was an error deleting the entry")
+		    			return window.location = '/login'
+		    		}
+				}
+			}
+			xhttp.open("post", "/delete", true);
+			xhttp.setRequestHeader('Content-Type', 'application/json');
+			xhttp.send(JSON.stringify({itemId: itemId}));
+		}
+		
 		if (window.confirm("You are about to delete this entry. Continue?"))
 		{	
-			return makeRequest();
-	
-		} else {
+			return makeRequest()
+		}
+		else
+		{
 			return false
 		}
+	}	
+
+	//  Retrieves requested edit page
+	function editEntry(itemId)
+	{	
+		window.location = '/edit/' + itemId
+	}
+
+	//  function applies click event listeners to dynamically loaded HTML (user's cards)
+	function listeners(htmlCol, func)
+	{
+	 	if (htmlCol)
+	 	{
+ 			for (let i = 0; i < htmlCol.length; i++)
+			{
+				htmlCol[i].addEventListener('click', () => {
+					func(htmlCol[i].parentNode.id)
+				})
+			}
+	 	}
+	}
+
+	const editAll = document.getElementsByClassName('edit__all');
+	listeners(editAll, editEntry)
+	
+	const deleteAll = document.getElementsByClassName('delete__all');
+	listeners(deleteAll, deleteEntry)
+	
+	const editCat = document.getElementsByClassName('edit__cat');
+	listeners(editCat, editEntry)	
+
+	const deleteCat = document.getElementsByClassName('delete__cat');
+	listeners(deleteCat, deleteEntry)
+	
+	const editSubmit = document.getElementsByClassName('edit__submit');
+	listeners(editSubmit, change)
+	
+	const editCancel = document.getElementsByClassName('edit__cancel');
+	listeners(editCancel, cancel)
+
+	// listeners for registration cases ==============
+	const regUser = document.querySelector('.register__username');
+	if (regUser)
+	{
+		regUser.addEventListener('keyup', () => {
+			checkUserName(regUser.value)
+		})
 	}
 	
-	else if (action == "edit")
-	{	
-		return makeRequest();
-	// In case value is modified other than delete or edit, return 'false'
-	} else {
-		return false
+	// Login password error message remove
+	function pwErrorRemoval(eventElement, messageElement)
+	{
+		if (eventElement)
+		{
+			eventElement.addEventListener('keyup', () => {
+				messageElement.style.display = "none";
+				messageElement.innerHTML = "";
+			})
+		}
 	}
+
+	const password = document.querySelector('.password');
+	let test2 = document.querySelector('.test2');
+	pwErrorRemoval(password, test2)
+	
+	const confirmation = document.querySelector('.confirmation');
+	let test3 = document.querySelector('.test3');
+	pwErrorRemoval(confirmation, test3)
+
 }
-
-
-
-
+window.addEventListener('load', init)

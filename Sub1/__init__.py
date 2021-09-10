@@ -16,7 +16,6 @@ app = Flask(__name__)
 
 import config 
 from helpers import login_required, get_cat_id, get_user, item_query, db_extract
-from dbconnect import DataBaseConnect
 from flask_mysqldb import MySQL
 
 #===developmemt or production===#
@@ -30,7 +29,6 @@ app.config.from_object('config.' + config_class)
 # Initiate Flask app's connection to MySQL server
 mysql = MySQL(app)
 
-
 # Ensure responses aren't cached
 @app.after_request
 def after_request(response):
@@ -38,7 +36,6 @@ def after_request(response):
     response.headers["Expires"] = 0
     response.headers["Pragma"] = "no-cache"
     return response
-
 
 # Handle any 404s
 @app.errorhandler(404)
@@ -71,7 +68,6 @@ def server_error(error):
 @app.route("/sorry")
 @login_required
 def sorry(message):
-
     db = mysql.connection.cursor()
 
     if session['user_id']:
@@ -86,7 +82,6 @@ def sorry(message):
 @app.route("/")
 @login_required
 def home():
-
     db = mysql.connection.cursor()
 
     if session['user_id']:
@@ -96,54 +91,64 @@ def home():
         # fetchall() returns a tuple of tuples with values only?
         user = db.fetchone()['username']
 
-        return render_template('index.html', user=user)
+        return render_template('index.html', user=user, category=False, page="Find your stuff")
 
     return render_template('login.html')
 
+def login_fail():
+    return render_template('login.html', error="Either username or password was incorrect.")
+
 @app.route("/login", methods=['GET', 'POST'])
 def login():
-
     db = mysql.connection.cursor()
 
     # Empty session
     session.clear()
+    
+    # User reached route via POST (username/pw credentials submitted)
+    if request.method == "POST":
 
-    try:
-        # User reached route via POST (username/pw credentials submitted)
-        if request.method == "POST":
+        username = request.form.get("username")
 
-            username = request.form.get("username")
+        # Ensure username was submitted
+        if not request.form.get("username"):
+            print(0)
+            return login_fail()
 
-            # Ensure username was submitted
-            if not request.form.get("username"):
-                print(0)
-                return render_template('login.html')
+        # Ensure password was submitted
+        elif not request.form.get("password"):
+            print(1)
+            return login_fail()
 
-            # Ensure password was submitted
-            elif not request.form.get("password"):
-                print(1)
-                return render_template('login.html')
+        # Query database for username
+        db.execute("SELECT * FROM users WHERE username = %(username)s", {"username": username})
 
-            # Query database for username
-            db.execute("SELECT * FROM users WHERE username = %(username)s",
-            {"username": username})
-
+        try: 
             user_data = db_extract(db)
-
+        except Exception as e:
+            print(e)
+            print(2)
+            return login_fail()
+        try:
             if not username == user_data[0]['username'] or not check_password_hash(user_data[0]['hash'], request.form.get('password')):
-                print(2)
-                return render_template('sorry.html')
-
+                print(3)
+                return login_fail()
+        except Exception as e:
+            print(e)
+            print(4)
+            return login_fail()
+        try:
             session["user_id"] = user_data[0]['id']
+        except Exception as e:
+            print(5)
+            print('if statement')
+            return login_fail()
 
-            # Redirect user to home page
-            return render_template('index.html', user=user_data[0]['username'])
+        # Redirect user to home page
+        return render_template('index.html', user=user_data[0]['username'], category=False, page="Find your stuff")
 
-        # Else, render login page
-        else:
-            return render_template('login.html')
-    except Exception as e:
-        print(e)
+    # Else, render login page
+    else:
         return render_template('login.html')
 
 @app.route("/logout")
@@ -159,7 +164,6 @@ def check():
     #Get username
     try:
         username = request.args.get('username')
-        print(username)
 
         db.execute("SELECT username FROM users")
         users = db.fetchall()
@@ -180,7 +184,6 @@ def check():
 
 @app.route("/register", methods=['GET', 'POST'])
 def register():
-
     db = mysql.connection.cursor()
 
     # Forget any user_id
@@ -235,7 +238,7 @@ def register():
         session['user_id'] = row['id']
         user = row['username']
         # Generate index page with username value for jinja engine to insert into interface
-        return render_template('index.html', user=user)
+        return render_template('index.html', user=user, category=False, page="Find your stuff")
 
     else:
         return render_template('register.html')
@@ -282,13 +285,15 @@ def add():
         # Select all user's 'store' data from current category that user is adding to
         db.execute("SELECT * FROM store WHERE userid=%(userid)s AND catid=%(catid)s", \
             {'userid': session['user_id'], 'catid': cat_id})
-        cat_data = db_extract(db)
+        user_cat_data = db_extract(db)
 
-        return render_template('category.html', user=user, category=category, userData=cat_data, side='sidebar')
+        thelength = len(user_cat_data)
+
+        return render_template('category.html', user=user, userData=user_cat_data, category=category, listlength=thelength, side='sidebar')
 
     else:
 
-        return render_template('add.html', user=user, side='sidebar')
+        return render_template('add.html', user=user, side='sidebar', category=False, page="Add your stuff")
 
 
 @app.route("/category/<value>", methods=['GET'])
@@ -320,12 +325,12 @@ def category(value):
         thelength = len(user_cat_data)
 
         # Send data base results to
-        return render_template('category.html', userData=user_cat_data, listlength=thelength, category=category, user=user, side='sidebar')
+        return render_template('category.html', user=user, userData=user_cat_data, category=category, listlength=thelength, side='sidebar')
 
     # If any errors direct user back to index page
     except Exception as e:
         print(e)
-        return render_template('index.html')
+        return render_template('index.html',category=False, page="Add your stuff")
 
 # Function gather all user data that matched user's id and returns template displaying data
 @app.route("/all", methods=['GET'])
@@ -346,18 +351,18 @@ def all():
         # sort a list of dictionaries by key name
         all_cat_data.sort(key=operator.itemgetter('catid'))
 
-        return render_template('all.html', userData=all_cat_data, user=user, side='sidebar')
+        return render_template('all.html', userData=all_cat_data, category=False, page="Browse all", user=user, side='sidebar')
 
     except Exception as e:
         print(e)
-        return render_template('index.html')
+        return render_template('index.html', category=False, page="Add your stuff")
 
 
 
 # Edit or delete entry function
-@app.route("/modify", methods=['POST'])
+@app.route("/delete", methods=['POST'])
 @login_required
-def modify():
+def delete():
     db = mysql.connection.cursor()
     
     try:
@@ -365,16 +370,12 @@ def modify():
         user_id = session['user_id']
         item_id = request.get_json()['itemId']
 
-        print('item_id is')
-        print(request.get_json()['itemId'])
-        print(request.get_json()['action'])
-
         #If item_id argument can be converted to int
         if int(item_id):
             item_id = int(item_id)
 
-        # # # Check if item_id is valid number for database search
-        # if isinstance(item_id, int):
+        # # Check if item_id is valid number for database search
+        if isinstance(item_id, int):
             
             # Make sql query of item, and retrieve all data in its row
             item_data = item_query(item_id, db)
@@ -382,25 +383,16 @@ def modify():
             # Does current user own selected entry (item_id)?      
             if user_id == item_data[0]['userid'] and item_id == item_data[0]['itemid']:
             
-                # If action is delete, delete entry
-                if request.get_json()['action'] == "delete":
-                    db.execute("DELETE FROM store WHERE itemid=%(itemid)s AND userid=%(userid)s" , {'itemid': item_id, 'userid': user_id})
-                    mysql.connection.commit()
+                db.execute("DELETE FROM store WHERE itemid=%(itemid)s AND userid=%(userid)s" , {'itemid': item_id, 'userid': user_id})
+                mysql.connection.commit()
 
-                # If action is edit, return itemId to get request, where JS will route to /edit
-                elif request.get_json()['action'] == "edit":
-                    # after item id number is verified to be owned by user, return to user
-                    return str(item_id)
-                
-                # If the action is delete, return true, prompting document reload
                 return "True"
 
-        else:
-            return "False"
+        return "False"
 
     except Exception as e:
         print(e)
-        return render_template('index.html')
+        return render_template('index.html', category=False, page="Find your stuff")
 
 # Function allows user to make edits to entries.
 # Function receives id for item, and returns editable data in the html form
@@ -408,7 +400,6 @@ def modify():
 @app.route("/edit/<item_id>", methods=['GET'])
 @login_required
 def edit(item_id):
-    
     db = mysql.connection.cursor()
 
     # if function returns None, value contains characters other than digits (manually entered in address bar)
@@ -421,13 +412,11 @@ def edit(item_id):
         
         # Make sql query of item, and retrieve all data in its row
         item_data = item_query(item_id, db)
-        print('item_data is')
-        print(item_data)
 
         # Does current user own selected entry (itemid)?      
         if user_id == item_data[0]['userid'] and int(item_id) == item_data[0]['itemid']:
                 # Return edit page with fields completed with previously entered info
-                return render_template('/edit.html', user=user, userData=item_data, side='sidebar')
+                return render_template('/edit.html', user=user, userData=item_data, side='sidebar', category=False, page="Edit")
 
         else: 
             return sorry(message='There was an error matching this item to your account.')
@@ -447,10 +436,7 @@ def change():
 
             user_id = session['user_id']
             # Receive post request
-            print('hello')
             received_changes=request.get_json()
-            print('received changes is ')
-            print(received_changes)
             item_id = int(received_changes['itemId'])
        
             # Make sql query of item, and retrieve all data in its row
@@ -461,11 +447,10 @@ def change():
                 
                 # Get new, possibly updated category
                 category = received_changes['category']
-                # Call helper function
-                cat_id = get_cat_id(category, db)
-                # description = received_changes['description']
                 location = received_changes['location']
                 comments = received_changes['comments']
+                # Call helper function
+                cat_id = get_cat_id(category, db)
         
                 db.execute("UPDATE store SET catid=%(catId)s,location=%(location)s, \
                 comments=%(comments)s WHERE itemid=%(itemId)s AND userid = %(userid)s", {'itemId': item_id, 'userid': session['user_id'],\
@@ -480,7 +465,7 @@ def change():
         # If any errors, render index page
         except Exception as e:
             print(e)
-            return render_template('index.html')
+            return render_template('index.html', category=False, page="Find your stuff")
 
 if __name__ == '__main__':
     app.run(debug=True)

@@ -4,14 +4,6 @@
 {% endblock %}
 {% block main %}
 
-<div class="nav__sub">
-	<h4 class="h4 nav__header">{{ category|capitalize }}</h4>
-	<div class="nav__sub--btncontainer">
-		<button onclick="window.location.href='/add'" class="btn__nav pointer">+ add new</button>
-		<button onclick="window.location.href='/all'" class="btn__nav pointer">browse all</button>
-	</div>
-</div>
-
 <div class="category__wrapper">
 	<div class="category__container--wrapper">
 		{% if userData %}
@@ -26,15 +18,16 @@
 						<h5 class="color__5 location">{{ row['location'] }}</h5>
 						<p class="color__6 comments__width">{{ row['comments'] }}</p>
 					</div>
-					<div class="category__container--modify" id="{{ row['itemid'] }}">
-						<button type="button" onclick="modify(this.parentNode.id, 'edit')" class="btn__modify pointer">Edit</button>
-						<button type="button" onclick="modify(this.parentNode.id, 'delete')" class="btn__modify pointer">Delete</button>
+					<div class="category__container--modify" id="{{ row['itemid'] }}">			
+						<button type="button" class="btn__modify edit__cat pointer">Edit</button>
+						<button type="button" class="btn__modify delete__cat pointer">Delete</button>
 					</div>
 				</div>
 			{% endfor %}
 		{% else %}
-			<p class="category__empty">Currently this category is empty. <a href="/add">Click </a>to add!</p>
+			<p class="category__empty">Currently this category is empty. <br> <a href="/add">Click to add!</a></p>
 		{% endif %}
+		<!-- Semi transparent category add -->
 		{% if listlength >= 1 %}
 		<a href="/add" class="textdec__none">
 			<div class="category__container category__border_radius opacity__40 ">

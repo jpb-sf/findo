@@ -2,13 +2,12 @@ import os
 import sqlite3
 from flask import redirect, render_template, request, session
 from functools import wraps
-from dbconnect import DataBaseConnect
+# from dbconnect import DataBaseConnect
 
 # Helper functions ==========================================
 
 # Converts SQL query into list of dictionary values
 def db_extract(query):
-
     if query:
         num_cols = len(query.description)
         col_names = [query.description[i][0] for i in range(num_cols)]
@@ -23,7 +22,6 @@ def db_extract(query):
 
         return data_list
 
-
 def login_required(f):
     @wraps(f)
     def decorated_function(*args, **kwargs):
@@ -34,20 +32,16 @@ def login_required(f):
 
 # Returns username from user_id value
 def get_user(db, session_usr_id):
-
     # Get curent username
     if session['user_id']:
         db.execute("SELECT username FROM users WHERE id=%s", (session_usr_id,))
         user = db.fetchone()['username']
 
         return user
-
     # If no userid, s user out
     else:
         return logout(); 
  
-
-
 # Returns category id (cat_id) value from the category name value
 def get_cat_id(category, db):
     catId = None
@@ -58,7 +52,6 @@ def get_cat_id(category, db):
     except Exception as e:
         print(e)
         return catId
-
 
 def item_query(itemId, db):
     item_data = None
@@ -80,7 +73,6 @@ def item_query(itemId, db):
 
 # Function returns all items in a specific category belonging to current user
 def category_query(db, catid, session_usr_id):
-
     try:
         db.execute("SELECT * FROM store WHERE userid=%(userid)s AND catid=%(catid)s", \
             {'userid': session_usr_id, 'catid': catid})

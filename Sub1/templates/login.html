@@ -6,6 +6,7 @@
 {% block main %}
 <div class="centered__h centered__v">
 	<form action="/login" method="post" id="login_form">
+		<p class="red pos__abs error__login">{{error}} </p>
 		<div>
 			<input type="text" name="username" placeholder="Username"  class="margins__input bg__color--inputs inputs">
 		</div>

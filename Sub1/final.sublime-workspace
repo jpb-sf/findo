@@ -1,0 +1,2568 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"query",
+				"querySelector"
+			],
+			[
+				"margin",
+				"margin-left\tproperty"
+			],
+			[
+				"m",
+				"margin-right\tproperty"
+			],
+			[
+				"marg",
+				"margin-right\tproperty"
+			],
+			[
+				"grid",
+				"grid-template-columns\tproperty"
+			],
+			[
+				"visi",
+				"visible"
+			],
+			[
+				"v",
+				"visibility\tproperty"
+			],
+			[
+				"visibl",
+				"visibility"
+			],
+			[
+				"mar",
+				"margin-left\tproperty"
+			],
+			[
+				"border",
+				"border-width\tproperty"
+			],
+			[
+				"op",
+				"opacity\tproperty"
+			],
+			[
+				"bor",
+				"border-width\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"in",
+				"inline-flex\tdisplay"
+			],
+			[
+				"d",
+				"display\tproperty"
+			],
+			[
+				"b",
+				"background\tproperty"
+			],
+			[
+				"grid-template",
+				"grid-template-columns\tproperty"
+			],
+			[
+				"le",
+				"letter-spacing\tproperty"
+			],
+			[
+				"tem",
+				"grid-template-rows\tproperty"
+			],
+			[
+				"te",
+				"text-decoration\tproperty"
+			],
+			[
+				"z",
+				"z-index\tproperty"
+			],
+			[
+				"padding",
+				"padding-bottom\tproperty"
+			],
+			[
+				"p",
+				"position\tproperty"
+			],
+			[
+				"box-s",
+				"box-shadow\tproperty"
+			],
+			[
+				"background-c",
+				"background-color\tproperty"
+			],
+			[
+				"grid-tem",
+				"grid-template-rows\tproperty"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"de",
+				"description"
+			],
+			[
+				"login",
+				"login_required"
+			],
+			[
+				"arra",
+				"arraySwapper"
+			],
+			[
+				"remove",
+				"removeExtra"
+			],
+			[
+				"al",
+				"alphaConverter"
+			],
+			[
+				"prim",
+				"prime_num2"
+			],
+			[
+				"ma",
+				"max_index"
+			],
+			[
+				"nu",
+				"numberArray"
+			],
+			[
+				"sum",
+				"sumOfParts"
+			],
+			[
+				"s",
+				"sumOfParts"
+			],
+			[
+				"n",
+				"numberArr"
+			],
+			[
+				"si",
+				"singleFromSum"
+			],
+			[
+				"on",
+				"onlyLatin"
+			],
+			[
+				"temp",
+				"tempArr2"
+			],
+			[
+				"w",
+				"whichCase"
+			],
+			[
+				"max",
+				"maxTotal2"
+			],
+			[
+				"ar",
+				"arraySpltr"
+			],
+			[
+				"swap",
+				"swapElem"
+			],
+			[
+				"las",
+				"lastElem"
+			],
+			[
+				"arr",
+				"arrayTest"
+			],
+			[
+				"a",
+				"answer"
+			],
+			[
+				"to",
+				"toUpperCase"
+			],
+			[
+				"ap",
+				"alpha"
+			],
+			[
+				"num",
+				"numCheck"
+			],
+			[
+				"bro",
+				"border-radius"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"spl",
+				"splitIt"
+			],
+			[
+				"chan",
+				"changeText2"
+			],
+			[
+				"get",
+				"getElement"
+			],
+			[
+				"text-d",
+				"text-decoration"
+			],
+			[
+				"backg",
+				"backgroundColor"
+			],
+			[
+				"test",
+				"test-btn1"
+			],
+			[
+				"new",
+				"newElement"
+			],
+			[
+				"playerAtt",
+				"playerAttackValues"
+			],
+			[
+				"pla",
+				"playerIdent"
+			],
+			[
+				"getSidebar",
+				"getSidebarLinks"
+			],
+			[
+				"calc",
+				"calculation"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"toggleNav",
+				"toggleNavStatus"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"toggle",
+				"toggleNavStatus"
+			],
+			[
+				"list-s",
+				"list-style"
+			],
+			[
+				"site",
+				"siteUrl"
+			],
+			[
+				"fe",
+				"fetchBookmarks"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"opt",
+				"option\tTag"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"gr",
+				"gray-mid"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"gra",
+				"gray-mid"
+			],
+			[
+				"gray-",
+				"gray-dark"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"sa",
+				"sans-serif"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"bl",
+				"blue-muted-dark"
+			],
+			[
+				"fle",
+				"flex-start"
+			],
+			[
+				"c",
+				"center"
+			],
+			[
+				"hero",
+				"hero-ad"
+			],
+			[
+				"main",
+				"main4__sub"
+			],
+			[
+				"nav",
+				"nav-four"
+			],
+			[
+				"grid-te",
+				"grid-template-rows"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"ali",
+				"align-items"
+			],
+			[
+				"f",
+				"flex"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"he",
+				"header\tTag"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"g",
+				"gray-med-dark"
+			],
+			[
+				"gray-m",
+				"gray-med-dark"
+			],
+			[
+				"gray",
+				"gray-dark"
+			],
+			[
+				"gray-l",
+				"gray-mid-light"
+			],
+			[
+				"trans",
+				"transform"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"i",
+				"inline-block"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"flex",
+				"inline-flex"
+			],
+			[
+				"tfp",
+				"tfp-nav__head"
+			],
+			[
+				"space",
+				"space-between"
+			],
+			[
+				"link",
+				"link-plain"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"inline",
+				"inline-flex"
+			],
+			[
+				"sp",
+				"space-between"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"border-rad",
+				"border-radius"
+			],
+			[
+				"tf-",
+				"tf-display__inline"
+			],
+			[
+				"tr",
+				"translateX()"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"t",
+				"translateX()"
+			],
+			[
+				"j",
+				"justify-content"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"iin",
+				"inline-block"
+			],
+			[
+				"tra",
+				"transform"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"border-ra",
+				"border-radius"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "final.py",
+			"settings":
+			{
+				"buffer_size": 22821,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "\n#===============================================================================================\n\n# /Users/jasonbergland/Documents/Projects/FrontDEV/CS50\\ Harvard/Final\n# if port is taken:\n# ps -fA | grep python\n# kill (2nd number)\n\n# if database locks\n# $ fuser final.db\n# Then kill process\n\n# print(sys.version)\n# print(sys.path)\n\n# the connection driver\n# import pymysql\n\n# # avoids error 'different thread ids'\n# put sqlite3 connect and cursor in local scope\n\n# # # Run python by name\n# # if __name__ == '__main__':\n#     # app.jinja_env.auto_reload = True\n#     # app.config['TEMPLATES_AUTO_RELOAD'] = True\n# #     app.run(debug=True)\n\n\n#===============================================================================================\n\nimport os\nimport sys\nfrom flask import Flask, request, session, url_for, flash, redirect, render_template, json, jsonify\nfrom helpers import login_required\nfrom werkzeug.security import check_password_hash, generate_password_hash\nimport json\nimport sqlite3\nimport time\nfrom threading import Event\nimport operator\n\n# Event from threadigg is for delays\nexit = Event()\n\n# Initiate app\napp = Flask(__name__)\napp.config[\"SECRET_KEY\"] = \"bb8NfvRFyHRewqtF_UkOaA\"\n\n# Ensure responses aren't cached\n@app.after_request\ndef after_request(response):\n    response.headers[\"Cache-Control\"] = \"no-cache, no-store, must-revalidate\"\n    response.headers[\"Expires\"] = 0\n    response.headers[\"Pragma\"] = \"no-cache\"\n    return response\n\n# helper functions #############################################################\n\ndef getUser():\n    conn = sqlite3.connect('final.db')\n    conn.row_factory = sqlite3.Row\n    db = conn.cursor()\n\n    # Get curent username\n    if session['user_id']:\n        userid = session['user_id']\n        db.execute(\"SELECT username FROM users WHERE id=?\", (userid,))\n        getUser = db.fetchone()\n        user = getUser[0]\n\n        return user\n\n    # IF no userid, log user out\n    else:\n        return logout(); \n\n# Helper function that retreives category id, when category name is supplied\ndef getCatId(category):\n    conn = sqlite3.connect('final.db')\n    conn.row_factory = sqlite3.Row\n    db = conn.cursor()\n\n    # \"Incorrect number of bindings supplied.\" The current statement uses 1, and there are 8 supplied\n    # Learn another way to this. ? and tuple with a comma. Comma is a must even if only one\n\n    db.execute(\"SELECT catid FROM categories WHERE catname=:category\", {'category': category})\n    get = db.fetchone()\n    getCatId = dict(zip([c[0] for c in db.description], get))\n    catId = int(getCatId['catid'])\n    return catId\n\n# Function returns list of data from a row from the Store table matching itemid\ndef itemQuery(itemId):\n    conn = sqlite3.connect('final.db')\n    conn.row_factory = sqlite3.Row\n    db = conn.cursor()\n\n    try:\n        db.execute(\"SELECT * FROM store WHERE itemid=:itemid\", {'itemid': itemId})\n          # Collect data and insert into a list of dicts\n        numcols = len(db.description)\n        colnames = [db.description[i][0] for i in range(numcols)]\n        itemData = []\n\n        for row in db.fetchall():\n            result = {}\n            for i in range(numcols):\n                result[colnames[i]] = row[i]\n            itemData.append(result)\n        return itemData\n\n    except Exception as e:\n        print(e)\n        return 'False'\n\n# Function returns all items in a specific category belonging to current user\ndef categoryQuery(catid):\n    conn = sqlite3.connect('final.db')\n    conn.row_factory = sqlite3.Row\n    db = conn.cursor()\n\n\n    userId = session['user_id']\n\n    try:\n        db.execute(\"SELECT * FROM store WHERE userid=:userid AND category=:catid \", \\\n            {'userid': userId, 'catid': catid})\n        numcols = len(db.description)\n        colnames = [db.description[i][0] for i in range(numcols)]\n        catData = []\n\n        for row in db.fetchall():\n            result = {}\n            for i in range(numcols):\n                result[colnames[i]] = row[i]\n            catData.append(result)\n        return catData\n\n    except Exception as e:\n        print(e)\n        return 'False'\n\n# View functions #############################################################\n\n# Python decorator\n@app.route(\"/home\")\n@app.route(\"/\")\n@login_required\ndef home():\n    conn = sqlite3.connect('final.db')\n    conn.row_factory = sqlite3.Row\n    db = conn.cursor()\n\n    userid = session['user_id']\n    print(userid)\n    db.execute(\"SELECT username FROM users WHERE id=?\", (userid,))\n    getUser = db.fetchone()\n    user = getUser[0] \n    # return render_template('layout.html')\n    return render_template('index.html', user=user)\n\n@app.route(\"/login\", methods=['GET', 'POST'])\ndef login():\n\n    conn = sqlite3.connect('final.db')\n    conn.row_factory = sqlite3.Row\n    db = conn.cursor()\n    \n    # Forget any user_id\n    session.clear()\n\n    # User reached route via POST (as by submitting a form via POST)\n    if request.method == \"POST\":\n\n        username = request.form.get(\"username\")\n\n        # Ensure username was submitted\n        if not request.form.get(\"username\"):\n            print(0)\n            return render_template('sorry.html')\n\n        # Ensure password was submitted\n        elif not request.form.get(\"password\"):\n            print(1)\n            return render_template('sorry.html')\n\n        # Query database for username\n\n        db.execute(\"SELECT * FROM users WHERE username=:username\",\n            #sqlite3 wants this bracket/ json format now (?)\n        {\"username\": username})\n\n        # Or fetchall option will it inside a list\n        row = db.fetchone()\n        \n        rowDict = dict(zip([c[0] for c in db.description], row))\n\n        # print(rowDict)\n\n        # Check if their is not a username match in database,\n        # and whether accompanying password checks\n        if not username == rowDict[\"username\"] or not check_password_hash(rowDict[\"hash\"], request.form.get('password')):\n            print(2)\n            return render_template('sorry.html')\n\n\n        session[\"user_id\"] = rowDict[\"id\"]\n\n        # Redirect user to home page\n        return render_template('index.html', user=username)\n    \n    else:\n        return render_template('login.html')\n\n@app.route(\"/logout\")\ndef logout():\n    session.clear()\n    return render_template('login.html')\n\n@app.route(\"/check\", methods=['GET'])\ndef check():\n    # exit.set needs to be on top! THis is perfect!\n    exit.set()\n    exit.clear()\n\n    conn = sqlite3.connect('final.db')\n    conn.row_factory = sqlite3.Row\n    db = conn.cursor()\n\n    #username\n    try:\n        username = request.args.get('username')\n        print(username)\n\n        db.execute(\"SELECT username FROM users\")\n        users = db.fetchall()\n\n        # If username input field has less than 3 characters\n        if len(username) < 3:\n            return jsonify({\"query\": \"toofew\"})\n\n        # If username input field is empty\n        if username == \"\":\n            exit.set()\n            return jsonify({\"query\": \"empty\"})\n\n        # If username is already in database\n        for user in users:\n            if user['username'] == username:\n                return json.dumps(False)\n        \n        # If username is not in database          \n        if not username == None:\n            return json.dumps(True)\n           \n    except (KeyError):\n        return jsonify({\"query\": \"empty\"})\n\n\n@app.route(\"/register\", methods=['GET', 'POST'])\ndef register():\n\n    conn = sqlite3.connect('final.db')\n    conn.row_factory = sqlite3.Row\n    db = conn.cursor()\n    \n    # Forget any user_id\n    session.clear()\n    \n    # User reached route via POST \n    if request.method == \"POST\":\n\n        # Backend validate form / check for errors\n        error0 = \"Sorry, there was an error registering.\"\n        error1 = \"Username must be 3 characters or more.\"\n        error2 = \"Password must be 3 characters or more.\"\n        error3 = \"Confirmation must match\"\n\n        if len(request.form.get('username')) < 3:\n            return render_template('register.html',  error0=error0, error2=error1)\n\n        if len(request.form.get('password')) < 3:\n            return render_template('register.html', error0=error0, error1=error2)\n\n        if not request.form.get('password') == request.form.get('confirmation'):\n            return render_template('register.html',  error0=error0, error3=error3)\n\n    \n        # Backend regristration error prevention, if username already taken\n        username = request.form.get('username')\n        db.execute('SELECT * FROM users')\n\n        # ===============\n        # Oh wow. THIS IS FOR FETCHALL a list of dicts!\n        numcols = len(db.description)\n        colnames = [db.description[i][0] for i in range(numcols)]\n        userData = []\n\n        for row in db.fetchall():\n            res = {}\n            for i in range(numcols):\n                res[colnames[i]] = row[i]\n            userData.append(res)\n\n        #===============   \n\n        # Loop through all usernames, check against received username from /registration\n        for users in userData:\n            print(users['username'])\n            if users['username'] == username:\n                userNameError = \"Sorry, username is already taken\"\n                return render_template('register.html', error1=userNameError)\n\n        # If no errors, then generate hash password for user  \n        hash = generate_password_hash(request.form.get('password'), method='pbkdf2:sha256', salt_length=8)\n\n        #================\n        # ALT SYNTAX [not using]\n        # db.execute(\"INSERT INTO users (username, hash) VALUES (:username, :hash)\",\n        #     {\"username\":request.form.get('username'), \"hash\": hash})\n        #================\n\n         # Add username and password to database\n        db.execute(\"INSERT INTO users (username, hash) VALUES (?, ?)\",\n            (request.form.get('username'), hash))\n\n        conn.commit()\n\n        # Auto-login when registered\n        db.execute(\"SELECT id, username FROM users WHERE username = :username\",\n            {\"username\":request.form.get('username')})\n\n        # Send username to homescreen greeting, AND store user_id in sessions list\n        row = db.fetchone()\n        rowDict = dict(zip([c[0] for c in db.description], row))\n        session['user_id'] = rowDict['id']\n        user = rowDict['username']\n\n        return render_template('index.html', user=user)\n    \n    else:\n        print(\"no query\")\n        return render_template('register.html')\n\n\n@app.route(\"/add\",methods=['GET', 'POST'])\n@login_required\ndef add():\n\n    conn = sqlite3.connect('final.db')\n    conn.row_factory = sqlite3.Row\n    db = conn.cursor()\n    \n    user = getUser()\n\n    if request.method == 'POST':\n\n        userid = session['user_id']\n        category = request.form.get('category')\n        item = request.form.get('item')\n        # description = request.form.get('description')\n        location = request.form.get('location')\n        comments = request.form.get('comments')\n        \n        #===================\n        # Backend validate form / check for errors\n        error0 = \"Please enter a category.\"\n        error1 = \"Please enter an item.\"\n        error2 = \"Please enter a location.\"\n        \n        if category == None:\n            return render_template('add.html', error0=error0)\n\n        if item == \"\":\n            return render_template('add.html', error1=error1)\n\n        if location == \"\":\n            return render_template('add.html', error2=error2)\n\n        # \"Incorrect number of bindings supplied.\" The current statement uses 1, and there are 8 supplied\n        # Learn another way to this. ? and tuple with a comma. Comma is a must even if only one\n        # db.execute(\"SELECT catid FROM categories WHERE category=?\", (category,))\n        # get = db.fetchone()\n        # catId = dict(zip([c[0] for c in db.description], get))\n        \n        catId = getCatId(category)\n\n        db.execute(\"INSERT INTO store (item, location, comments, category, userid) \\\n         VALUES (?, ?, ?, ?, ?)\", (item, location, comments, catId, userid))\n\n        conn.commit()\n        conn.close()\n        catData = categoryQuery(catId)\n\n        return render_template('category.html', user=user, category=category, userData=catData)\n\n    else:\n\n        return render_template('add.html', user=user)\n\n\n@app.route(\"/category/<value>\", methods=['GET'])\n@login_required\ndef category(value):\n        \n    try:\n        conn = sqlite3.connect('final.db')\n        conn.row_factory = sqlite3.Row\n        db = conn.cursor()\n\n        user = getUser()\n\n        userid = session['user_id']\n        \n        # Category is url parameter passed in from html id\n        category = value\n\n        # Get corresponding category id number\n        db.execute(\"SELECT catid FROM categories WHERE catname=?\", (category,))\n        get = db.fetchone()\n        catid = get[0]\n\n        # ============ Old way ================\n        # getCatId = dict(zip([c[0] for c in db.description], get))\n        # catId = getCatId['catid']\n        # =====================================\n           \n        # Get store table data where userid = userid AND category=category id number\n        db.execute(\"SELECT * FROM store WHERE userid=:userid AND category=:category\", \\\n            {\"userid\": userid, \"category\": catid})\n\n        # Combine result into a list of dicts!\n        numcols = len(db.description)\n        colnames = [db.description[i][0] for i in range(numcols)]\n        userData = []\n\n        for row in db.fetchall():\n            result = {}\n            for i in range(numcols):\n                result[colnames[i]] = row[i]\n            userData.append(result)\n        # print(userData)\n        # Send data base results to \n        return render_template('category.html', userData=userData, category=category, user=user)\n\n    # If any errors direct user back to index page\n    except Exception as e:\n        print(e)\n        return render_template('index.html')\n\n# Function gather all user data that matched user's id and returns template displaying data\n@app.route(\"/all\", methods=['GET'])\n@login_required\ndef all():\n    conn = sqlite3.connect('final.db')\n    conn.row_factory = sqlite3.Row\n    db = conn.cursor()\n\n    user = getUser()\n    userid = session['user_id']\n\n    try:\n        # Select all from store table where userid is current userid\n        # db.execute(\"SELECT * FROM store WHERE userid=:userid\", {'userid': userid})\n        \n        db.execute(\"SELECT item, itemid, description, location, comments, userid, catname, catid FROM store INNER JOIN categories on categories.catid=store.category WHERE userid=:userid\", \\\n            {'userid': userid} )\n\n        # Get column names to convert to dict key words\n        numcols = len(db.description) #6\n        colnames = [db.description[i][0] for i in range(numcols)]\n        userData = []\n\n        for row in db.fetchall():\n            result = {}\n            for i in range(numcols):\n                result[colnames[i]] = row[i]\n            # Append the new dict to userData list\n            userData.append(result)\n\n        print(userData)\n        \n        # sort a list of dictionaries by key name\n        userData.sort(key=operator.itemgetter('catid'))\n\n        return render_template('all.html', userData=userData, user=user)\n\n    except Exception as e:\n        print(e)\n        return render_template('index.html')\n\n\n\n# Edit or delete entry function\n@app.route(\"/modify\", methods=['GET', 'POST'])\n@login_required\ndef modify():\n    conn = sqlite3.connect('final.db')\n    conn.row_factory = sqlite3.Row\n    db = conn.cursor()\n\n    try:\n        user = getUser()\n        userid = session['user_id']\n\n        itemId = request.args.get('itemId')\n\n        #If itemid argument can be converted to int\n        if int(itemId):\n            itemId = int(itemId)\n\n        # # Check if itemid is valid number for database search\n        # if isinstance(itemId, int):\n\n            # Make sql query of item, and retrieve all data in its row\n            itemData = itemQuery(itemId)\n         \n            # Does current user own selected entry (itemid)?      \n            if userid == itemData[0]['userid'] and itemId == itemData[0]['itemid']:\n            \n                # If action is delete, delete entry\n                if request.args.get('action') == \"delete\":\n                    db.execute(\"DELETE FROM store WHERE itemid=:itemid\", {'itemid': itemId})\n                    conn.commit()\n                    conn.close\n\n                # If action is edit, return itemId to get request, where JS will route to /edit\n                if request.args.get('action') == \"edit\":\n                    # after item id number is verified to be owned by user, return to user\n                    return str(itemId)\n                \n                # If the action is delete, return true, prompting document reload\n                return \"True\"\n\n        else:\n            return \"False\"\n\n    except Exception as e:\n        print(e)\n        return render_template('index.html')\n\n# Function allows user to make edits to entries, Get request only.\n# Function receives id for item, and returns editable data in the html form\n\n@app.route(\"/edit/<itemId>\", methods=['GET'])\n@login_required\ndef edit(itemId):\n\n    try:\n        conn = sqlite3.connect('final.db')\n        conn.row_factory = sqlite3.Row\n        db = conn.cursor()\n        user = getUser()\n        userId = session['user_id']\n        itemId = itemId\n        \n        # Make sql query of item, and retrieve all data in its row\n        itemData = itemQuery(itemId)\n        \n        catId = itemData[0]['category']\n\n        # Get category name from catid\n        db.execute(\"SELECT * FROM categories WHERE catid=:catId\", {'catId': catId})\n\n        for row in db.fetchall():\n            category = row[1]\n\n        # Does current user own selected entry (itemid)?      \n        if userId == itemData[0]['userid'] and int(itemId) == itemData[0]['itemid']:\n                # Return edit page with fields completed with previously entered info\n                return render_template('/edit.html', user=user, userData=itemData, category=category)\n\n        else:\n            return render_template('/index.html', user=user, category=category)\n    \n    # If any erros, render index page\n    except Exception as e:\n        print(e)\n        return render_template('index.html')\n\n# Function allows user to make edits to entries, but Post request only.\n# Second step of process: receives form of the changes made, updates database\n@app.route(\"/change\", methods=['POST'])\n@login_required\ndef change():\n        \n        try:\n            conn = sqlite3.connect('final.db')\n            conn.row_factory = sqlite3.Row\n            db = conn.cursor()\n            user = getUser()\n    \n            userId = session['user_id']\n            # Receive post request\n            receivedData=request.get_json()\n            itemId = int(receivedData['itemId'])\n       \n            # Make sql query of item, and retrieve all data in its row\n            itemData = itemQuery(itemId)\n\n            # Does current user own selected entry (itemid)?      \n            if userId == itemData[0]['userid'] and itemId == itemData[0]['itemid']:\n        \n                category = receivedData['category']\n                print(category)\n                # Call helper function\n                catId = getCatId(category)\n                print(catId)\n                # description = receivedData['description']\n                location = receivedData['location']\n                comments = receivedData['comments']\n        \n\n                db.execute(\"UPDATE store SET category=:catId,location=:location, \\\n                comments=:comments WHERE itemid=:itemId\", {'catId': catId,\n                'location': location, 'comments': comments, 'itemId': itemId})\n                \n                conn.commit()\n                conn.close()\n\n            return \"True\"\n\n        # If any errors, render index page\n        except Exception as e:\n            print(e)\n            return render_template('index.html')\n\n\n\n\n# So all this route (display) was doing was checking if the category existed, and\n# returned an answer to javascript which then routed the category itself\n# by grabbing the category value from the DOM. So this was completely useless.\n# No need to send an id to a JS function, and then get request here, display(), and then back to Js,\n# and then back here gain. Just route each link to category directly with a value\n# /category/<variable>\n\n\n# @app.route(\"/display\", methods=['GET', 'POST'])\n# @login_required\n# def display():\n\n\n# conn = sqlite3.connect('final.db')\n# db = conn.cursor()\n    \n\n# conn.commit()\n# conn.close()\n\n\n\n# ==============\n# first version\n# ==============\n# def display(category):\n   \n#     conn = sqlite3.connect('final.db')\n#     conn.row_factory = sqlite3.Row\n#     db = conn.cursor()\n\n#     userid = session['user_id']\n\n#     # Get category id number\n#     db.execute(\"SELECT catid FROM categories WHERE category=:category\", (category,))\n#     get = db.fetchone()\n#     getCatId = dict(zip([c[0] for c in db.description], get))\n#     catId = getCatId['catid']\n\n#     # get store where userid = userid AND category=category\n\n#     db.execute(\"SELECT * FROM store WHERE userid=:userid AND category=:category\", \\\n#         {\"userid\": userid, \"category\": catId})\n\n#     # # Oh wow. THIS IS FOR FETCHALL a list of dicts!\n#     numcols = len(db.description)\n#     colnames = [db.description[i][0] for i in range(numcols)]\n#     userData = []\n\n#     for row in db.fetchall():\n#         result = {}\n#         for i in range(numcols):\n#             result[colnames[i]] = row[i]\n#         userData.append(result)\n\n#     print(userData)\n    \n#     \n#     return render_template('category.html' userData=userData)\n\n#==============Category Pages==================\n\n# @app.route(\"/household\", methods=['GET', 'POST'])\n# @login_required\n# def household():\n\n#     category = \"household\"\n\n#     return display(category)\n\n\n# @app.route(\"/yard\", methods=['GET', 'POST'])\n# @login_required\n# def yard():\n\n#     category = \"yard\"\n\n#     return display(category)\n\n\n#========================================\n#============================================\n\n\n# ==================================================\n# sqlite3 CREATE AND ADD TABLES via python\n# ==================================================\n\n\n# for row in db.execute(\"SELECT id, name, marks from SCHOOL\"):\n#   print(\"ID = \", row[0])\n#   print(\"NAME = \", row[1])\n#   print(\"MARKS = \", row[2], \"\\n\")\n\n\n\n# db.execute('''CREATE TABLE FERSHO\n#          (ID INTEGER PRIMARY KEY  NOT NULL,\n#          NAME           TEXT    NOT NULL,\n#          AGE            INT     NOT NULL,\n#          ADDRESS        CHAR(50),\n#          MARKS          INT);''')\n\n# conn.create_all()\n# db.close()\n\n\n# db.execute(\"INSERT INTO SCHOOL (ID,NAME,AGE,ADDRESS,MARKS) \\\n#       VALUES (1, 'Rohan', 14, 'Delhi', 200)\");\n# db.execute(\"INSERT INTO SCHOOL (ID,NAME,AGE,ADDRESS,MARKS) \\\n#       VALUES (2, 'Allen', 14, 'Bangalore', 150 )\");\n# db.execute(\"INSERT INTO SCHOOL (ID,NAME,AGE,ADDRESS,MARKS) \\\n#       VALUES (3, 'Martha', 15, 'Hyderabad', 200 )\");\n# db.execute(\"INSERT INTO SCHOOL (ID,NAME,AGE,ADDRESS,MARKS) \\\n#       VALUES (4, 'Palak', 15, 'Kolkata', 650)\");conn.commit()\n# conn.close()",
+			"file": "final-v.py",
+			"file_size": 23266,
+			"file_write_time": 132144452440000000,
+			"settings":
+			{
+				"buffer_size": 23265,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "static/final.js",
+			"settings":
+			{
+				"buffer_size": 6683,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Templates/register.html",
+			"settings":
+			{
+				"buffer_size": 1279,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "static/styles.css",
+			"settings":
+			{
+				"buffer_size": 16398,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Templates/all.html",
+			"settings":
+			{
+				"buffer_size": 4651,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Templates/category.html",
+			"settings":
+			{
+				"buffer_size": 4743,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Templates/add.html",
+			"settings":
+			{
+				"buffer_size": 6107,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"package in",
+				"Package Control: Install Package"
+			],
+			[
+				"package ",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"package",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				"color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"virtua",
+				"Virtualenv: Add directory"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: html"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 412.0
+	},
+	"console":
+	{
+		"height": 135.0,
+		"history":
+		[
+			"pip install psycopg2",
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Final",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Final/static",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Final/Templates"
+	],
+	"file_history":
+	[
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Final/Templates/layout.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Final/Templates/index.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Final/Templates/all.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Final/Templates/edit.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Final/Templates/category.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Final/Templates/register.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Final/Templates/add.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Final/static/final.js",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Final/final.py",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Final/Templates/login.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Final/static/styles.css",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Final/Templates/sidebar.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Final/static/styles_mq.css",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Final/static/styles_copy_914.css",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Final/Templates/location.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Final/helpers.py",
+		"/Users/jasonbergland/Desktop/test.css",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Final/static/media_query.css",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Final/static/bootstrap-4.1.3-dist/css/bootstrap-grid.css",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Final/final.sqlite-journal",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Final/edit.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Final/test.py",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Final/Templates/display.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Final/Templates/household.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Final/Templates/sorry.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Final/Templates/lookup.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Final/Templates/stored.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Final/Templates/specifics.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Final/Templates/verify.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Final/Templates/yard.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Final/Templates/domestic.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Final/Templates/domestic.templates",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Final/static/try.js",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/test.py",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Practice/test/test_inside_function.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Practice/test/test_grab.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Practice/test/test-main.js",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Practice/test.js",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Final/final.db",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Final/Templates/main.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Final/register.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Final/login.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Final/main.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Final/final.sublime-project",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Final/my_database.sqlite",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Final/test.php",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Final/final.sublime-workspace",
+		"/Users/jasonbergland/Library/Application Support/Sublime Text 3/Packages/User/letsgo.sublime-build",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Final/application.py",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Final/appilcation.py",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Final/final_project.sublime-project",
+		"/Users/jasonbergland/Library/Application Support/Sublime Text 3/Packages/User/final.sublime-build",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Final/myfinal/final.sublime-project",
+		"/Users/jasonbergland/Library/Application Support/Sublime Text 3/Packages/User/test.sublime-build",
+		"/Users/jasonbergland/Library/Application Support/Sublime Text 3/Packages/User/Python 3 + Virtualenv.sublime-build",
+		"/Users/jasonbergland/Library/Application Support/Sublime Text 3/Packages/User/Python3:Flask +Virtualenv.sublime-build",
+		"/Users/jasonbergland/Library/Application Support/Sublime Text 3/Packages/User/Python3 + Virtualenv(Flask).sublime-build",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Roundup_Summary",
+		"/Users/jasonbergland/Movies/Star Wars 77/Harmy.ANH.2.5.mkv",
+		"/Users/jasonbergland/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/Users/jasonbergland/Library/Application Support/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Practice/Python Pratice/second.py",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Practice/JS little exercises/test.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Week 8(9)/test_grab_from_form.html",
+		"/Users/jasonbergland/Library/Application Support/Sublime Text 3/Packages/User/python3.sublime-build",
+		"/Users/jasonbergland/Library/Application Support/Sublime Text 3/Packages/User/Python3.sublime-build",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Practice/Python Pratice/first.py",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Week 8(9)/Finance first run/quoted.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Week 8(9)/Finance first run/layout.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/HTML Web practice 2018/test.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Week 8(9)/Finance first run/application.py",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Week 8(9)/Finance first run/buy2.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Practice/test/test_grab_2.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/untitled3.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/week 7(8)/Survey App/application.py",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/week 7(8)/bird1.txt",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/dfdf.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/NYT/NYT_Grid.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/week 7(8)/index.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Python Practice/similarities.py",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Js Practice/JS little exercises/test.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/Screenshot Notes/JS Screenshots/in_vs_of.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Js Practice/AJAX stuff/json_play.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Js Practice/AJAX stuff/json_play.js",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Brid Nerd/bird_2.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Random HTML/Dirt/dirt_1.js",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Random HTML/Dirt/dirt_1.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Brid Nerd/bird_date.xml",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Brid Nerd/bird_nerd.js",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Random HTML/Dirt/css/dirt_1.css",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Random HTML/Dirt/dirt1_js",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Brid Nerd/birdy2.css",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/HTML Web practice/untitled2.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Js Practice/Understanding JS, The Weird Parts/app.js",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Js Practice/Understanding JS, The Weird Parts/Weird_Index.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Js Practice/JS little exercises/max_number_array.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Week 4(5)/dictionary.c",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Week 2(3)/vigenere.c",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Js Practice/JS little exercises/js_closures.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Google Recreate/G_Recreate.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/NYT/NYT.html",
+		"/Users/jasonbergland/Downloads/dictionary.c",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Week 3(4)/recover.c",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Week 3(4)/whodunit.c",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Week 3(4)/resize.c",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Js Practice/JS little exercises/2019/My Copies/05_07_mc_divide.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Js Practice/JS little exercises/2019/My Copies/08_12_mc_sum_of_digits.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Js Practice/JS little exercises/2019/My Copies/08_13_mc_swap_two_halves.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Js Practice/JS little exercises/2019/08_14_swap_capitalize_all.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Js Practice/JS little exercises/2019/08_15_swap_adjacent.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Js Practice/JS little exercises/2019/My Copies/05_08_mc_find_div_pairs.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Js Practice/JS little exercises/2019/My Copies/08_07_mc_round_number.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Js Practice/JS little exercises/2019/My Copies/08_08_mc_all_digits_same.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Js Practice/JS little exercises/2019/My Copies/08_09_mc_same_elem_2_array.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Js Practice/JS little exercises/2019/My Copies/08_10_mc_sort_string_length.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Js Practice/JS little exercises/2019/My Copies/08_11_mc_break_address.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Js Practice/JS little exercises/2019/My Copies/08_04_mc_remove_first_digit.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Js Practice/JS little exercises/2019/My Copies/08_05_mc_return_based_on_test.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Js Practice/JS little exercises/2019/My Copies/08_06_mc_reverse_bits.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Js Practice/JS little exercises/2019/My Copies/08_03_mc_remove_extras.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Js Practice/JS little exercises/2019/My Copies/07_02_mc_prime_factors.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Js Practice/JS little exercises/2019/My Copies/08_01_mc_proper_fraction.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Js Practice/JS little exercises/2019/My Copies/08_02_mc_alphabet_opposite.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Js Practice/JS little exercises/2019/06_16_number_of_evens.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Js Practice/JS little exercises/2019/07_01_prefix_sums.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Js Practice/JS little exercises/2019/06_13_reverse_binary.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Js Practice/JS little exercises/2019/06_15_smallest_prime.html",
+		"/Users/jasonbergland/Documents/Projects/FrontDEV/DevProjects/Js Practice/JS little exercises/2019/06_14_smallest_round.html"
+	],
+	"find":
+	{
+		"height": 42.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"None",
+			"nav__header",
+			"left",
+			"category__empty",
+			"18rem",
+			"6rem",
+			"<li ",
+			"\t\t\t<",
+			"color__3",
+			"background",
+			"<a h",
+			"<li>",
+			"absolute",
+			"color__3",
+			";\n",
+			"12rem",
+			"fixed",
+			"<p ",
+			" .",
+			"<p>",
+			"nav__sidebar",
+			"\"><",
+			"div",
+			"textdec__none",
+			"n",
+			"index__container",
+			"textdec__none",
+			"index__container",
+			"id",
+			"div",
+			"class",
+			"id",
+			"href",
+			"=\"\"><",
+			"a",
+			"><",
+			"div",
+			"Household",
+			"div",
+			"<<",
+			"a",
+			"li",
+			"}\n",
+			"mark",
+			"margin__input",
+			"bg",
+			"margins",
+			"bg",
+			"expand",
+			"navbar",
+			"link",
+			"container",
+			"right",
+			";\n",
+			"margin-top: 1rem;",
+			"rule_login",
+			"%;\n",
+			"nav—link",
+			"and",
+			"userId",
+			"# XAMPP phpmyadmin root password generator for 78easy78 is:\n# pL5wfcTkZr7VHMeN\n\n# line below from SQLAlchemy site (Might need later)\n\t# engine = create_engine('postgresql://localhost/[finder.db]')\n\n#============================\n\n# #Setup database and its path (__file__) respresents 'this'\n# db_path = os.path.join(os.path.dirname(__file__), 'final.db')\n# db_uri = 'mysql:///{}'.format(db_path)\n# app.config['SQLALCHEMY_DATABASE_URI'] = db_uri\n# app.secret_key = \"bBig989big382Secret7\"\n# app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:78easy78@localhost/tester'\n# Set variable that is a conncection from database to Flask app\n# db = SQLAlchemy(app)\n# Need this to create the file\n# db.create_all()\n\n#===========================\n# FROM CS50\n\n# from flask_session import Session\n\n# *HOW TO connnect multipe python files in same directory\n# from helpers import apology, login_required, lookup, usd\n\n# Session(app)\n#============================\n\n#===============================================================================================\n\n# /Users/jasonbergland/Documents/Projects/FrontDEV/CS50\\ Harvard/Final\n# if port is taken:\n# ps -fA | grep python\n# kill (2nd number)\n\n# if database locks\n# $ fuser final.db\n# Then kill process\n\nimport os\nimport sys\n# print(sys.version)\n# print(sys.path)\n\n# the connection driver\n# import pymysql\nfrom flask import Flask, request, session, url_for, flash, redirect, render_template, json, jsonify\n# from flask_assets import Bundle, Environment (might need this)\nfrom helpers import login_required\nfrom werkzeug.security import check_password_hash, generate_password_hash\n# from tempfile import mkdtemp\n# from flask_session import Session\n# from flask_sqlalchemy import SQLAlchemy\n# from sqlalchemy import create_engine\nimport sqlite3\nimport time\nfrom threading import Event\n\n# This is for delays\nexit = Event()\n\n# # avoids error 'different thread ids'\n# put sqlite3 connect and cursor in local scope\n\n# Initiate app\napp = Flask(__name__)\napp.config[\"SECRET_KEY\"] = \"bb8NfvRFyHRewqtF_UkOaA\"\n\n# # # Run python by name\n# # if __name__ == '__main__':\n#     # app.jinja_env.auto_reload = True\n#     # app.config['TEMPLATES_AUTO_RELOAD'] = True\n# #     app.run(debug=True)\n\n# Ensure responses aren't cached\n@app.after_request\ndef after_request(response):\n    response.headers[\"Cache-Control\"] = \"no-cache, no-store, must-revalidate\"\n    response.headers[\"Expires\"] = 0\n    response.headers[\"Pragma\"] = \"no-cache\"\n    return response\n\n\n# Python decorator\n@app.route(\"/home\")\n@app.route(\"/\")\n@login_required\ndef home():\n    conn = sqlite3.connect('final.db')\n    conn.row_factory = sqlite3.Row\n    db = conn.cursor()\n\n    userid = session['user_id']\n    db.execute(\"SELECT username FROM users WHERE id=?\", (userid,))\n    getUser = db.fetchone()\n    user = getUser[0] \n\t# return render_template('layout.html')\n    return render_template('index.html', user=user)\n\n@app.route(\"/login\", methods=['GET', 'POST'])\ndef login():\n\n    conn = sqlite3.connect('final.db')\n    conn.row_factory = sqlite3.Row\n    db = conn.cursor()\n    \n    # Forget any user_id\n    session.clear()\n\n    # User reached route via POST (as by submitting a form via POST)\n    if request.method == \"POST\":\n\n        username = request.form.get(\"username\")\n\n        # Ensure username was submitted\n        if not request.form.get(\"username\"):\n            print(0)\n            return render_template('sorry.html')\n\n        # Ensure password was submitted\n        elif not request.form.get(\"password\"):\n            print(1)\n            return render_template('sorry.html')\n\n        # Query database for username\n\n        db.execute(\"SELECT * FROM users WHERE username=:username\",\n            #sqlite3 wants this bracket/ json format now (?)\n        {\"username\": username})\n\n        # Or fetchall option will it inside a list\n        row = db.fetchone()\n        \n        rowDict = dict(zip([c[0] for c in db.description], row))\n\n        # print(rowDict)\n\n        # Check if their is not a username match in database,\n        # and whether accompanying password checks\n        if not username == rowDict[\"username\"] or not check_password_hash(rowDict[\"hash\"], request.form.get('password')):\n            print(2)\n            return render_template('sorry.html')\n\n\n        session[\"user_id\"] = rowDict[\"id\"]\n\n        # Redirect user to home page\n        return render_template('index.html', user=username)\n    \n    else:\n        return render_template('login.html')\n\n@app.route(\"/logout\")\ndef logout():\n    session.clear()\n    return render_template('index.html')\n\n@app.route(\"/check\", methods=['GET'])\ndef check():\n    # exit.set needs to be on top! THis is perfect!\n    exit.set()\n    exit.clear()\n\n    conn = sqlite3.connect('final.db')\n    conn.row_factory = sqlite3.Row\n    db = conn.cursor()\n\n    #username\n    try:\n        username = request.args.get('username')\n        print(username)\n\n        db.execute(\"SELECT username FROM users\")\n        users = db.fetchall()\n\n        # If username input field has less than 3 characters\n        if len(username) < 3:\n            return jsonify({\"query\": \"toofew\"})\n\n        # If username input field is empty\n        if username == \"\":\n            exit.set()\n            return jsonify({\"query\": \"empty\"})\n\n        # If username is already in database\n        for user in users:\n            if user['username'] == username:\n                return json.dumps(False)\n        \n        # If username is not in database          \n        if not username == None:\n            return json.dumps(True)\n           \n    except (KeyError):\n        return jsonify({\"query\": \"empty\"})\n\n\n@app.route(\"/register\", methods=['GET', 'POST'])\ndef register():\n\n    conn = sqlite3.connect('final.db')\n    conn.row_factory = sqlite3.Row\n    db = conn.cursor()\n    \n    # Forget any user_id\n    session.clear()\n    \n    # User reached route via POST \n    if request.method == \"POST\":\n\n        # Backend validate form / check for errors\n        error0 = \"Sorry, there was an error registering.\"\n        error1 = \"Username must be 3 characters or more.\"\n        error2 = \"Password must be 3 characters or more.\"\n        error3 = \"Confirmation must match\"\n\n        if len(request.form.get('username')) < 3:\n            return render_template('register.html',  error0=error0, error2=error1)\n\n        if len(request.form.get('password')) < 3:\n            return render_template('register.html', error0=error0, error1=error2)\n\n        if not request.form.get('password') == request.form.get('confirmation'):\n            return render_template('register.html',  error0=error0, error3=error3)\n\n    \n        # Backend regristration error prevention, if username already taken\n        username = request.form.get('username')\n        db.execute('SELECT * FROM users')\n\n        # ===============\n        # Oh wow. THIS IS FOR FETCHALL a list of dicts!\n        numcols = len(db.description)\n        colnames = [db.description[i][0] for i in range(numcols)]\n        userData = []\n\n        for row in db.fetchall():\n            res = {}\n            for i in range(numcols):\n                res[colnames[i]] = row[i]\n            userData.append(res)\n\n        #===============   \n\n        # Loop through all usernames, check against received username from /registration\n        for users in userData:\n            print(users['username'])\n            if users['username'] == username:\n                userNameError = \"Sorry, username is already taken\"\n                return render_template('register.html', error1=userNameError)\n\n        # If no errors, then generate hash password for user  \n        hash = generate_password_hash(request.form.get('password'), method='pbkdf2:sha256', salt_length=8)\n\n        #================\n        # ALT SYNTAX [not using]\n        # db.execute(\"INSERT INTO users (username, hash) VALUES (:username, :hash)\",\n        #     {\"username\":request.form.get('username'), \"hash\": hash})\n        #================\n\n         # Add username and password to database\n        db.execute(\"INSERT INTO users (username, hash) VALUES (?, ?)\",\n            (request.form.get('username'), hash))\n\n        conn.commit()\n\n        # Auto-login when registered\n        db.execute(\"SELECT id, username FROM users WHERE username = :username\",\n            {\"username\":request.form.get('username')})\n\n        # Send username to homescreen greeting, AND store user_id in sessions list\n        row = db.fetchone()\n        rowDict = dict(zip([c[0] for c in db.description], row))\n        session['user_id'] = rowDict['id']\n        user = rowDict['username']\n\n        return render_template('index.html', user=user)\n    \n    else:\n        print(\"no query\")\n        return render_template('register.html')\n\ndef getUser():\n    conn = sqlite3.connect('final.db')\n    conn.row_factory = sqlite3.Row\n    db = conn.cursor()\n\n    # Get curent username\n    if session['user_id']:\n        userid = session['user_id']\n        db.execute(\"SELECT username FROM users WHERE id=?\", (userid,))\n        getUser = db.fetchone()\n        user = getUser[0]\n\n        return user\n\n    # IF no userid, log user out\n    else:\n        return logout(); \n\n@app.route(\"/add\",methods=['GET', 'POST'])\n@login_required\ndef add():\n\n    conn = sqlite3.connect('final.db')\n    conn.row_factory = sqlite3.Row\n    db = conn.cursor()\n    \n    user = getUser()\n\n    if request.method == 'POST':\n\n        userid = session['user_id']\n        \n        category = request.form.get('category')\n        item = request.form.get('item')\n        description = request.form.get('description')\n        location = request.form.get('location')\n        comments = request.form.get('comments')\n        category = request.form.get('category')\n        \n        #===================\n        # Backend validate form / check for errors\n        error0 = \"Please enter a category.\"\n        error1 = \"Please enter an item.\"\n        error2 = \"Please enter a location.\"\n        \n        if category == None:\n            return render_template('add.html', error0=error0)\n\n        if item == \"\":\n            return render_template('add.html', error1=error1)\n\n        if location == \"\":\n            return render_template('add.html', error2=error2)\n\n\n        # \"Incorrect number of bindings supplied.\" The current statement uses 1, and there are 8 supplied\n        # Learn another way to this. ? and tuple with a comma. Comma is a must even if only one\n        # db.execute(\"SELECT catid FROM categories WHERE category=?\", (category,))\n        db.execute(\"SELECT catid FROM categories WHERE category=?\", (category,))\n        get = db.fetchone()\n        getCatId = dict(zip([c[0] for c in db.description], get))\n        catId = getCatId['catid']\n\n        db.execute(\"INSERT INTO store (item, description, location, comments, category, userid) \\\n         VALUES (?, ?, ?, ?, ?, ?)\", (item, description, location, comments, catId, userid))\n\n        conn.commit()\n\n        return render_template('index.html')\n\n    else:\n\n        return render_template('add.html', user=user)\n\n\n@app.route(\"/display\", methods=['GET', 'POST'])\n@login_required\ndef display():\n    conn = sqlite3.connect('final.db')\n    conn.row_factory = sqlite3.Row\n    db = conn.cursor()\n    \n    # Get user selected category value    \n    category = request.args.get('category')\n\n    # Grab list of categoryies\n    db.execute(\"SELECT category FROM categories\")\n    numcols = len(db.description)\n    colnames = [db.description[i][0] for i in range(numcols)]\n    userData = []\n    \n    # Compare category to list of categories, check if it exists\n    flag = False\n    for row in db.fetchall():\n        print(row[0])\n        if row[0] == category:\n            flag = True\n        \n    if flag:\n        return \"True\"\n\n    else:\n        return \"False\"\n\n\n@app.route(\"/category/<value>\", methods=['GET'])\n@login_required\ndef category(value):\n        \n    try:\n        conn = sqlite3.connect('final.db')\n        conn.row_factory = sqlite3.Row\n        db = conn.cursor()\n        print('test')\n\n        user = getUser()\n\n        userid = session['user_id']\n        # Category is url parameter passed in \n        category = value\n\n        # Get category id number\n        db.execute(\"SELECT catid FROM categories WHERE category=?\", (category,))\n        get = db.fetchone()\n        catid = get[0]\n\n        # ============ Old way ================\n        # getCatId = dict(zip([c[0] for c in db.description], get))\n        # catId = getCatId['catid']\n        # =====================================\n           \n        # get store where userid = userid AND category=category\n        db.execute(\"SELECT * FROM store WHERE userid=:userid AND category=:category\", \\\n            {\"userid\": userid, \"category\": catid})\n\n        # Oh wow. THIS IS FOR FETCHALL, a list of dicts!\n        numcols = len(db.description)\n        colnames = [db.description[i][0] for i in range(numcols)]\n        userData = []\n\n        for row in db.fetchall():\n            result = {}\n            for i in range(numcols):\n                result[colnames[i]] = row[i]\n            userData.append(result)\n        # print(userData)\n\n        return render_template('category.html', userData=userData, category=category, user=user)\n\n    # If any errors direct user back to index page\n    except Exception as e:\n        print(e)\n        return render_template('index.html')\n\n\n@app.route(\"/all\", methods=['GET'])\n@login_required\ndef all():\n    conn = sqlite3.connect('final.db')\n    conn.row_factory = sqlite3.Row\n    db = conn.cursor()\n\n    user = getUser()\n    userid = session['user_id']\n\n    try:\n        # Select all from store table where userid is current userid\n        db.execute(\"SELECT * FROM store WHERE userid=:userid\", {'userid': userid})\n        # Get column names to convert to dict key words\n        numcols = len(db.description) #6\n        colnames = [db.description[i][0] for i in range(numcols)]\n        userData = []\n\n        for row in db.fetchall():\n            result = {}\n            for i in range(numcols):\n                result[colnames[i]] = row[i]\n            # Append the new dict to userData list\n            userData.append(result)\n\n        return render_template('all.html', userData=userData, user=user)\n\n    except Exception as e:\n        print(e)\n        return render_template('index.html')\n\n\n@app.route(\"/delete/<itemid>\")\n@login_required\ndef delete(itemid):\n    conn = sqlite3.connect('final.db')\n    conn.row_factory = sqlite3.Row\n    db = conn.cursor()\n\n    user = getUser()\n    userid = session['user_id']\n    itemid = itemid\n\n    if itemid:\n\n        # Select itemid and verify it also matches current userid\n        db.execute(\"SELECT * FROM store WHERE itemid=:itemid\", {'itemid': itemid})      \n        \n        # Collect all data for row\n        for row in db.fetchall():\n            results = []\n            length = len(db.description)\n            i = 0\n            while i < length:\n                results.append(row[i])\n                i += 1\n         \n        return \"true\"\n\n    else:\n        return \"false\"\n\n\n# conn = sqlite3.connect('final.db')\n# db = conn.cursor()\n    \n\n# conn.commit()\n# conn.close()\n\n\n\n# ==============\n# first version\n# ==============\n# def display(category):\n   \n#     conn = sqlite3.connect('final.db')\n#     conn.row_factory = sqlite3.Row\n#     db = conn.cursor()\n\n#     userid = session['user_id']\n\n#     # Get category id number\n#     db.execute(\"SELECT catid FROM categories WHERE category=:category\", (category,))\n#     get = db.fetchone()\n#     getCatId = dict(zip([c[0] for c in db.description], get))\n#     catId = getCatId['catid']\n\n#     # get store where userid = userid AND category=category\n\n#     db.execute(\"SELECT * FROM store WHERE userid=:userid AND category=:category\", \\\n#         {\"userid\": userid, \"category\": catId})\n\n#     # # Oh wow. THIS IS FOR FETCHALL a list of dicts!\n#     numcols = len(db.description)\n#     colnames = [db.description[i][0] for i in range(numcols)]\n#     userData = []\n\n#     for row in db.fetchall():\n#         result = {}\n#         for i in range(numcols):\n#             result[colnames[i]] = row[i]\n#         userData.append(result)\n\n#     print(userData)\n    \n#     \n#     return render_template('category.html' userData=userData)\n\n#==============Category Pages==================\n\n# @app.route(\"/household\", methods=['GET', 'POST'])\n# @login_required\n# def household():\n\n#     category = \"household\"\n\n#     return display(category)\n\n\n# @app.route(\"/yard\", methods=['GET', 'POST'])\n# @login_required\n# def yard():\n\n#     category = \"yard\"\n\n#     return display(category)\n\n\n#========================================\n#============================================\n\n\n\n\n# ==================================================\n# sqlite3 CREATE AND ADD TABLES via python\n# ==================================================\n\n\n# for row in db.execute(\"SELECT id, name, marks from SCHOOL\"):\n# \tprint(\"ID = \", row[0])\n# \tprint(\"NAME = \", row[1])\n# \tprint(\"MARKS = \", row[2], \"\\n\")\n\n\n\n# db.execute('''CREATE TABLE FERSHO\n#          (ID INTEGER PRIMARY KEY  NOT NULL,\n#          NAME           TEXT    NOT NULL,\n#          AGE            INT     NOT NULL,\n#          ADDRESS        CHAR(50),\n#          MARKS          INT);''')\n\n# conn.create_all()\n# db.close()\n\n\n\n# db.execute(\"INSERT INTO SCHOOL (ID,NAME,AGE,ADDRESS,MARKS) \\\n#       VALUES (1, 'Rohan', 14, 'Delhi', 200)\");\n# db.execute(\"INSERT INTO SCHOOL (ID,NAME,AGE,ADDRESS,MARKS) \\\n#       VALUES (2, 'Allen', 14, 'Bangalore', 150 )\");\n# db.execute(\"INSERT INTO SCHOOL (ID,NAME,AGE,ADDRESS,MARKS) \\\n#       VALUES (3, 'Martha', 15, 'Hyderabad', 200 )\");\n# db.execute(\"INSERT INTO SCHOOL (ID,NAME,AGE,ADDRESS,MARKS) \\\n#       VALUES (4, 'Palak', 15, 'Kolkata', 650)\");conn.commit()\n# conn.close()",
+			"# XAMPP phpmyadmin root password generator for 78easy78 is:\n# pL5wfcTkZr7VHMeN\n\n# line below from SQLAlchemy site (Might need later)\n\t# engine = create_engine('postgresql://localhost/[finder.db]')\n\n#============================\n\n# #Setup database and its path (__file__) respresents 'this'\n# db_path = os.path.join(os.path.dirname(__file__), 'final.db')\n# db_uri = 'mysql:///{}'.format(db_path)\n# app.config['SQLALCHEMY_DATABASE_URI'] = db_uri\n# app.secret_key = \"bBig989big382Secret7\"\n# app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:78easy78@localhost/tester'\n# Set variable that is a conncection from database to Flask app\n# db = SQLAlchemy(app)\n# Need this to create the file\n# db.create_all()\n\n#===========================\n# FROM CS50\n\n# from flask_session import Session\n\n# *HOW TO connnect multipe python files in same directory\n# from helpers import apology, login_required, lookup, usd\n\n# Session(app)\n#============================\n\n#===============================================================================================\n\n# /Users/jasonbergland/Documents/Projects/FrontDEV/CS50\\ Harvard/Final\n# if port is taken:\n# ps -fA | grep python\n# kill (2nd number)\n\n# if database locks\n# $ fuser final.db\n# Then kill process\n\nimport os\nimport sys\n# print(sys.version)\n# print(sys.path)\n\n# the connection driver\n# import pymysql\nfrom flask import Flask, request, session, url_for, flash, redirect, render_template, json, jsonify\n# from flask_assets import Bundle, Environment (might need this)\nfrom helpers import login_required\nfrom werkzeug.security import check_password_hash, generate_password_hash\n# from tempfile import mkdtemp\n# from flask_session import Session\n# from flask_sqlalchemy import SQLAlchemy\n# from sqlalchemy import create_engine\nimport sqlite3\nimport time\nfrom threading import Event\n\n\n\n# # avoids error 'different thread ids'\n# put sqlite3 connect and cursor in local scope\n\n# Initiate app\napp = Flask(__name__)\napp.config[\"SECRET_KEY\"] = \"bb8NfvRFyHRewqtF_UkOaA\"\n\n# # # Run python by name\n# # if __name__ == '__main__':\n#     # app.jinja_env.auto_reload = True\n#     # app.config['TEMPLATES_AUTO_RELOAD'] = True\n# #     app.run(debug=True)\n\n# Ensure responses aren't cached\n@app.after_request\ndef after_request(response):\n    response.headers[\"Cache-Control\"] = \"no-cache, no-store, must-revalidate\"\n    response.headers[\"Expires\"] = 0\n    response.headers[\"Pragma\"] = \"no-cache\"\n    return response\n\n\n# Python decorator\n@app.route(\"/home\")\n@app.route(\"/\")\n@login_required\ndef home():\n    print(sys.path)\n\t# return render_template('layout.html')\n    return render_template('index.html')\n\n@app.route(\"/login\", methods=['GET', 'POST'])\ndef login():\n\n    conn = sqlite3.connect('final.db')\n    conn.row_factory = sqlite3.Row\n    db = conn.cursor()\n    \n    # Forget any user_id\n    session.clear()\n\n    # User reached route via POST (as by submitting a form via POST)\n    if request.method == \"POST\":\n\n        username = request.form.get(\"username\")\n\n        # Ensure username was submitted\n        if not request.form.get(\"username\"):\n            print(0)\n            return render_template('sorry.html')\n\n        # Ensure password was submitted\n        elif not request.form.get(\"password\"):\n            print(1)\n            return render_template('sorry.html')\n\n        # Query database for username\n\n        db.execute(\"SELECT * FROM users WHERE username=:username\",\n            #sqlite3 wants this bracket/ json format now (?)\n        {\"username\": username})\n\n        # Or fetchall option will it inside a list\n        row = db.fetchone()\n        \n        rowDict = dict(zip([c[0] for c in db.description], row))\n\n        # print(rowDict)\n\n        # Check if their is not a username match in database,\n        # and whether accompanying password checks\n        if not username == rowDict[\"username\"] or not check_password_hash(rowDict[\"hash\"], request.form.get('password')):\n            print(2)\n            return render_template('sorry.html')\n\n\n        session[\"user_id\"] = rowDict[\"id\"]\n\n        # Redirect user to home page\n        return render_template('index.html', user=username)\n    \n    else:\n        return render_template('login.html')\n\n@app.route(\"/logout\")\ndef logout():\n    session.clear()\n    return render_template('index.html')\n\n@app.route(\"/check\", methods=['GET'])\ndef check():\n    # exit.set needs to be on top! THis is perfect!s\n    exit.set()\n    exit.clear() \n    conn = sqlite3.connect('final.db')\n    conn.row_factory = sqlite3.Row\n    db = conn.cursor()\n\n    #username\n    try:\n        username = request.args.get('username')\n        print(username)\n\n        db.execute(\"SELECT username FROM users\")\n        users = db.fetchall()\n\n        # If username input field has less than 3 characters\n        if len(username) < 3 and len(username) >= 1:\n            exit.wait(2)\n            return jsonify({\"query\": \"toofew\"})\n\n        # If username input field is empty\n        if username == \"\":\n            exit.set()\n            return jsonify({\"query\": \"empty\"})\n\n        # If username is already in database\n        for user in users:\n            if user['username'] == username:\n                return json.dumps(False)\n        \n        # If username is not in database          \n        if not username == None:\n            return json.dumps(True)\n           \n    except (KeyError):\n        return jsonify({\"query\": \"empty\"})\n\n\n@app.route(\"/register\", methods=['GET', 'POST'])\ndef register():\n\n    conn = sqlite3.connect('final.db')\n    conn.row_factory = sqlite3.Row\n    db = conn.cursor()\n    \n    # Forget any user_id\n    session.clear()\n    \n    # User reached route via POST \n    if request.method == \"POST\":\n\n        # Backend validate form / check for errors\n        error0 = \"Sorry, there was an error registering.\"\n        error1 = \"Username must be 3 characters or more.\"\n        error2 = \"Password must be 3 characters or more.\"\n        error3 = \"Confirmation must match\"\n\n        if len(request.form.get('username')) < 3:\n            return render_template('register.html',  error0=error0, error2=error1)\n\n        if len(request.form.get('password')) < 3:\n            return render_template('register.html', error0=error0, error1=error2)\n\n        if not request.form.get('password') == request.form.get('confirmation'):\n            return render_template('register.html',  error0=error0, error3=error3)\n\n    \n        # Backend regristration error prevention, if username already taken\n        username = request.form.get('username')\n        db.execute('SELECT * FROM users')\n\n        # ===============\n        # Oh wow. THIS IS FOR FETCHALL a list of dicts!\n        numcols = len(db.description)\n        colnames = [db.description[i][0] for i in range(numcols)]\n        userData = []\n\n        for row in db.fetchall():\n            res = {}\n            for i in range(numcols):\n                res[colnames[i]] = row[i]\n            userData.append(res)\n\n        #===============   \n\n        # Loop through all usernames, check against received username from /registration\n        for users in userData:\n            print(users['username'])\n            if users['username'] == username:\n                userNameError = \"Sorry, username is already taken\"\n                return render_template('register.html', error1=userNameError)\n\n        # If no errors, then generate hash password for user  \n        hash = generate_password_hash(request.form.get('password'), method='pbkdf2:sha256', salt_length=8)\n\n        #================\n        # ALT SYNTAX [not using]\n        # db.execute(\"INSERT INTO users (username, hash) VALUES (:username, :hash)\",\n        #     {\"username\":request.form.get('username'), \"hash\": hash})\n        #================\n\n         # Add username and password to database\n        db.execute(\"INSERT INTO users (username, hash) VALUES (?, ?)\",\n            (request.form.get('username'), hash))\n\n        conn.commit()\n\n        # Auto-login when registered\n        db.execute(\"SELECT id, username FROM users WHERE username = :username\",\n            {\"username\":request.form.get('username')})\n\n        # Send username to homescreen greeting, AND store user_id in sessions list\n        row = db.fetchone()\n        rowDict = dict(zip([c[0] for c in db.description], row))\n        session['user_id'] = rowDict['id']\n        user = rowDict['username']\n\n        return render_template('index.html', user=user)\n    \n    else:\n        print(\"no query\")\n        return render_template('register.html')\n\n\n@app.route(\"/add\",methods=['GET', 'POST'])\n@login_required\ndef add():\n    conn = sqlite3.connect('final.db')\n    conn.row_factory = sqlite3.Row\n    db = conn.cursor()\n\n    if request.method == 'POST':\n\n        userid = session['user_id']\n        print(userid)\n\n        category = request.form.get('category')\n        item = request.form.get('item')\n        description = request.form.get('description')\n        location = request.form.get('location')\n        comments = request.form.get('comments')\n        category = request.form.get('category')\n        \n        #===================\n        # Backend validate form / check for errors\n        error0 = \"Please enter a category.\"\n        error1 = \"Please enter an item.\"\n        error2 = \"Please enter a location.\"\n        \n        if category == None:\n            return render_template('add.html', error0=error0)\n\n        if item == \"\":\n            return render_template('add.html', error1=error1)\n\n        if location == \"\":\n            return render_template('add.html', error2=error2)\n\n\n        # \"Incorrect number of bindings supplied.\" The current statement uses 1, and there are 8 supplied\n        # Learn another way to this. ? and tuple with a comma. Comma is a must even if only one\n        # db.execute(\"SELECT catid FROM categories WHERE category=?\", (category,))\n        db.execute(\"SELECT catid FROM categories WHERE category=?\", (category,))\n        get = db.fetchone()\n        getCatId = dict(zip([c[0] for c in db.description], get))\n        catId = getCatId['catid']\n\n        db.execute(\"INSERT INTO store (item, description, location, comments, category, userid) \\\n         VALUES (?, ?, ?, ?, ?, ?)\", (item, description, location, comments, catId, userid))\n\n        conn.commit()\n\n        return render_template('index.html')\n\n    else:\n\n        return render_template('add.html')\n\n\n@app.route(\"/display\", methods=['GET', 'POST'])\n@login_required\ndef display():\n    conn = sqlite3.connect('final.db')\n    conn.row_factory = sqlite3.Row\n    db = conn.cursor()\n    \n    category = request.args.get('category')\n\n    db.execute(\"SELECT category FROM categories\")\n    numcols = len(db.description)\n    colnames = [db.description[i][0] for i in range(numcols)]\n    userData = []\n    \n    flag = False\n    for row in db.fetchall():\n        print(row[0])\n        if row[0] == category:\n            flag = True\n        \n    if flag:\n        return \"True\"\n\n    else:\n        return \"False\"\n\n\n@app.route(\"/category/<value>\", methods=['GET'])\n@login_required\ndef category(value):\n        \n    try:\n        conn = sqlite3.connect('final.db')\n        conn.row_factory = sqlite3.Row\n        db = conn.cursor()\n        print('test')\n\n        userid = session['user_id']\n        category = value\n\n        # Get category id number\n        db.execute(\"SELECT catid FROM categories WHERE category=?\", (category,))\n\n        get = db.fetchone()\n        catid = get[0]\n\n        # ============ Old way ================\n        # getCatId = dict(zip([c[0] for c in db.description], get))\n        # catId = getCatId['catid']\n        # =====================================\n           \n        # get store where userid = userid AND category=category\n        db.execute(\"SELECT * FROM store WHERE userid=:userid AND category=:category\", \\\n            {\"userid\": userid, \"category\": catid})\n\n        # # # Oh wow. THIS IS FOR FETCHALL a list of dicts!\n        numcols = len(db.description)\n        colnames = [db.description[i][0] for i in range(numcols)]\n        userData = []\n\n        for row in db.fetchall():\n            result = {}\n            for i in range(numcols):\n                result[colnames[i]] = row[i]\n            userData.append(result)\n        # print(userData)\n\n        return render_template('category.html', userData=userData, category=category)\n\n    # If any errors direct user back to index page\n    except Exception as e:\n        print(e)\n        return render_template('index.html')\n\n\n@app.route(\"/all\", methods=['GET'])\n@login_required\ndef all():\n    conn = sqlite3.connect('final.db')\n    conn.row_factory = sqlite3.Row\n    db = conn.cursor()\n\n    userid = session['user_id']\n\n    try:\n\n        # Select all from store table where userid is current userid\n        db.execute(\"SELECT * FROM store WHERE userid=:userid\", {'userid': userid})\n        # Get column names to convert to dict key words\n        numcols = len(db.description) #6\n        colnames = [db.description[i][0] for i in range(numcols)]\n        userData = []\n\n        for row in db.fetchmany():\n            result = {}\n            for i in range(numcols):\n                result[colnames[i]] = row[i]\n            # Append the new dict to userData list\n            userData.append(result)\n\n        return render_template('all.html', userData=userData)\n\n\n    except Exception as e:\n        print(e)\n        return render_template('index.html')\n\n\n\n\n\n# conn = sqlite3.connect('final.db')\n# db = conn.cursor()\n    \n\n# conn.commit()\n# conn.close()\n\n\n\n# ==============\n# first version\n# ==============\n# def display(category):\n   \n#     conn = sqlite3.connect('final.db')\n#     conn.row_factory = sqlite3.Row\n#     db = conn.cursor()\n\n#     userid = session['user_id']\n\n#     # Get category id number\n#     db.execute(\"SELECT catid FROM categories WHERE category=:category\", (category,))\n#     get = db.fetchone()\n#     getCatId = dict(zip([c[0] for c in db.description], get))\n#     catId = getCatId['catid']\n\n#     # get store where userid = userid AND category=category\n\n#     db.execute(\"SELECT * FROM store WHERE userid=:userid AND category=:category\", \\\n#         {\"userid\": userid, \"category\": catId})\n\n#     # # Oh wow. THIS IS FOR FETCHALL a list of dicts!\n#     numcols = len(db.description)\n#     colnames = [db.description[i][0] for i in range(numcols)]\n#     userData = []\n\n#     for row in db.fetchall():\n#         result = {}\n#         for i in range(numcols):\n#             result[colnames[i]] = row[i]\n#         userData.append(result)\n\n#     print(userData)\n    \n#     \n#     return render_template('category.html' userData=userData)\n\n#==============Category Pages==================\n\n# @app.route(\"/household\", methods=['GET', 'POST'])\n# @login_required\n# def household():\n\n#     category = \"household\"\n\n#     return display(category)\n\n\n# @app.route(\"/yard\", methods=['GET', 'POST'])\n# @login_required\n# def yard():\n\n#     category = \"yard\"\n\n#     return display(category)\n\n\n#========================================\n#============================================\n\n\n\n\n# ==================================================\n# sqlite3 CREATE AND ADD TABLES via python\n# ==================================================\n\n\n# for row in db.execute(\"SELECT id, name, marks from SCHOOL\"):\n# \tprint(\"ID = \", row[0])\n# \tprint(\"NAME = \", row[1])\n# \tprint(\"MARKS = \", row[2], \"\\n\")\n\n\n\n# db.execute('''CREATE TABLE FERSHO\n#          (ID INTEGER PRIMARY KEY  NOT NULL,\n#          NAME           TEXT    NOT NULL,\n#          AGE            INT     NOT NULL,\n#          ADDRESS        CHAR(50),\n#          MARKS          INT);''')\n\n# conn.create_all()\n# db.close()\n\n\n\n# db.execute(\"INSERT INTO SCHOOL (ID,NAME,AGE,ADDRESS,MARKS) \\\n#       VALUES (1, 'Rohan', 14, 'Delhi', 200)\");\n# db.execute(\"INSERT INTO SCHOOL (ID,NAME,AGE,ADDRESS,MARKS) \\\n#       VALUES (2, 'Allen', 14, 'Bangalore', 150 )\");\n# db.execute(\"INSERT INTO SCHOOL (ID,NAME,AGE,ADDRESS,MARKS) \\\n#       VALUES (3, 'Martha', 15, 'Hyderabad', 200 )\");\n# db.execute(\"INSERT INTO SCHOOL (ID,NAME,AGE,ADDRESS,MARKS) \\\n#       VALUES (4, 'Palak', 15, 'Kolkata', 650)\");conn.commit()\n# conn.close()",
+			"Household",
+			"class",
+			"<!-- <link rel=\"stylesheet\" href=\"/static/bootstrap-4.1.3-dist/css/bootstrap.min.css\"> -->",
+			"<script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js\"></script>",
+			"<script type=\"text/javascript\" src=\"{{ url_for('static', filename='final.js') }}\"></script>",
+			"password",
+			" else:\n    \treturn render_template('layout.html')"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/Users/jasonbergland/Documents/Projects/FrontDEV/CS50 Harvard/Final"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "final.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 22821,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6688,
+								6692
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "final-v.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 23265,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								741,
+								741
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "static/final.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6683,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2772,
+								2772
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										2841,
+										2842
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"region.yellowish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										2823,
+										2824
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										4081,
+										4082
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										2770,
+										2771
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Templates/register.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1279,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1264,
+								1264
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "static/styles.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16398,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9560,
+								9560
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										9624,
+										9625
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										9579,
+										9580
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "Templates/all.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4651,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1436,
+								1436
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										26,
+										27
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										0,
+										1
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1436,
+										1437
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"region.greenish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1411,
+										1412
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "Templates/category.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4743,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								920,
+								920
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1405,
+										1406
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"region.greenish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1380,
+										1381
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										923,
+										924
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"region.greenish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										903,
+										904
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "Templates/add.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6107,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6058,
+								6058
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": 24,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										6055,
+										6057
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"region.orangish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										3069,
+										3071
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 42.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 424.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 102.0
+	},
+	"pinned_build_system": "Packages/User/letsgo.sublime-build",
+	"project": "",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"final.py"
+			],
+			[
+				"g",
+				"~/Documents/Projects/FrontDEV/DevProjects/Js Practice/JS little exercises/2019/02_11_change_position_of_char.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 398.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

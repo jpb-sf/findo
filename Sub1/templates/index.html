@@ -5,14 +5,6 @@
 {% block main %}
 {% if session.user_id %}
 
-
-<div class="nav__sub">
-	<h4 class="h4 nav__header nav__header--adj">Find your stuff</h4>
-	<div class="nav__sub--btncontainer">
-		<button onclick="window.location.href='/add'" class="btn__nav pointer">+ add new</button>
-		<button onclick="window.location.href='/all'" class="btn__nav pointer">browse all</button>
-	</div>
-</div>
 <div class="index__wrapper">
 	<a href="/category/household" class="pointer index__container textdec__none link__color--white">
 		<div class="tab household"></div>

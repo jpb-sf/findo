@@ -4,21 +4,12 @@
 	edit
 {% endblock %}
 {% block main %}
-
-
-<div class="nav__sub">
-	<h4 class="h4 nav__header">Edit</h4>
-	<div class="nav__sub--btncontainer">
-		<button onclick="window.location.href='/add'" class="btn__nav pointer">+ add new</button>
-		<button onclick="window.location.href='/all'" class="btn__nav pointer">browse all</button>
-	</div>
-</div>
-
+<div class="edit__add--wrapper">
 <div class="edit__wrapper">
 	<div class="edit__container--wrapper">
 		<div class="edit__container">
 			<div class="category__header category__border_radius">
-				<h4 class="pos__abs ml__edit mt__half h4__white">Edit: {{ userData[0]['item'] }}</h4>
+				<h4 class="pos__abs ml__edit mt__edit h4__white category__header__h4">Edit: {{ userData[0]['item'] }}</h4>
 			</div>
 			<div class="category__orange"></div>
 			<div class="{{ userData[0]['category'] }} edit__tab category__border_radius"></div>
@@ -41,22 +32,20 @@
 				</select>
 				<!-- Warning element -->
 				<p class="red no_category"></p>
-				<!-- <p>Description (optional)</p>
-				<textarea name="description" id="description" cols="30" rows="4">{{ userData[0]['description'] }}</textarea> -->
 				<p class="color__5 mt__2">Location</p>
 				<input type="text" name="location" id="location" value="{{ userData[0]['location']}}"></input>
 				<p class="color__5 mt__2">Comments (optional)</p>
-				<textarea name="comments" id="comments" name="comments" class="comments" maxlength="120">{{ userData[0]['comments']}}</textarea>
+				<textarea name="comments" id="comments" name="comments" class="edit__comments" maxlength="120">{{ userData[0]['comments']}}</textarea>
 				<br>
 			</form>
-			<!-- Make changes button sends item id to js function which grabs input data and passes to the back end -->
+			<!-- Button event triggers js function which sends item id to the back end -->
 			<div class="edit__btn--container">
 				<div id="{{ userData[0]['itemid'] }}">
-					<button type="click" onclick="edit(this.parentNode.id)" class="btn__base btn__makechanges btn__cancel pointer">Submit</button>
+					<button type="click" class="btn__base btn__makechanges btn__cancel pointer edit__submit">Submit</button>
 				</div>
-				<!-- Cancel button retreives the category oage -->
+				<!-- Cancel button retreives the current category page -->
 				<div id="{{ userData[0]['category'] }}">
-					<button onclick="display(this.parentNode.id)" class="btn__base btn__cancel pointer">Cancel</button>
+					<button class="btn__base btn__cancel pointer edit__cancel">Cancel</button>
 				</div>
 			</div>
 		</div>
@@ -65,12 +54,7 @@
 		{% include 'sidebar.html' %}
 	{% endif %}
 </div>
+</div>
 
 {% endblock %}
 
-
-
-<!-- Note to self. Does this need to go to a JS function? -->
-<!-- No. The reason why I did it this way, instead of a simple form post request, 
-was because I wanted to route user to the specific category page,
-and Flask's render_template can't take a variable as far as I know -->

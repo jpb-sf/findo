@@ -4,14 +4,6 @@
 {% endblock %}
 {% block main %}
 
-<div class="nav__sub">
-	<h4 class="h4 nav__header">Browse all</h4>
-	<div class="nav__sub--btncontainer">
-		<button onclick="window.location.href='/add'" class="btn__nav pointer">+ add new</button>
-		<button onclick="window.location.href='/all'" class="btn__nav pointer">browse all</button>
-	</div>
-</div>
-
 <!-- Create table, loop through database, one db row is one item -->
 <div class="category__wrapper">
 	<div class="category__container--wrapper">
@@ -30,13 +22,13 @@
 				</div>
 				<!-- Modify buttons on top of 'category__conatiner--info' div to be indepent of them -->
 				<div class="category__container--modify" id="{{ row['itemid'] }}">
-					<button type="button" onclick="modify(this.parentNode.id, 'edit')" class="btn__modify pointer">Edit</button>
-					<button type="button" onclick="modify(this.parentNode.id, 'delete')" class="btn__modify pointer">Delete</button>
+					<button type="button" class="btn__modify edit__all pointer">Edit</button>
+					<button type="button" class="btn__modify delete__all pointer">Delete</button>
 				</div>
 			</div>
 		{% endfor %}
 	{% else %}
-		<p class="category__empty"> Your inventory is empty, click to add an entry!row <a href="/add">Click </a>to add!</p>
+		<p class="category__empty"> Your inventory is empty, click to add an entry! <a href="/add">Click </a>to add!</p>
 	{% endif %}
 	</div>
 	{% if side == 'sidebar' %}
