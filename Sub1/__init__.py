@@ -3,7 +3,6 @@ import sys
 from flask import Flask, request, session, url_for, flash, redirect, render_template, json, jsonify
 from werkzeug.security import check_password_hash, generate_password_hash
 import json
-import sqlite3
 import time
 from threading import Event
 import operator
@@ -45,7 +44,7 @@ def internal_error(error):
     if session.get('user_id'):
         if session['user_id']:
             user = get_user(db, session['user_id'])
-            return render_template('sorry.html', user=user, message="Sorry, this page does not exist.")
+            return render_template('sorry.html', user=user, category=False, page="Error", message="Sorry, this page does not exist.")
         else:
             return render_template('login.html')
     else:
@@ -58,10 +57,9 @@ def server_error(error):
 
     if session['user_id']:
         user = get_user(db, session['user_id'])
-        return render_template('sorry.html', user=user, message="Sorry, there was an error on our end.")
+        return render_template('sorry.html', user=user, category=False, page="Error", message="Sorry, there was an error on our end.")
     else:
         return redirect('/login')
-
 
 # View functions ==========================================
 
@@ -71,12 +69,10 @@ def sorry(message):
     db = mysql.connection.cursor()
 
     if session['user_id']:
-        
         user = get_user(db, session['user_id'])
-        return render_template('sorry.html', user=user, message=message)
+        return render_template('sorry.html', user=user, category=False, page="Error", message=message)
     else:
         return render_template('login.html')
-
 
 @app.route("/home")
 @app.route("/")
@@ -85,10 +81,7 @@ def home():
     db = mysql.connection.cursor()
 
     if session['user_id']:
-
         db.execute("SELECT username FROM users WHERE id = %s", (session['user_id'],))
-        # fetchone() returns a dictionary?
-        # fetchall() returns a tuple of tuples with values only?
         user = db.fetchone()['username']
 
         return render_template('index.html', user=user, category=False, page="Find your stuff")
@@ -107,7 +100,6 @@ def login():
     
     # User reached route via POST (username/pw credentials submitted)
     if request.method == "POST":
-
         username = request.form.get("username")
 
         # Ensure username was submitted
@@ -166,7 +158,12 @@ def check():
         username = request.args.get('username')
 
         db.execute("SELECT username FROM users")
-        users = db.fetchall()
+        # print('let\'s remind ourselves what fetchall() does')
+        # users = db.fetchall()
+        # print(users)
+        test = db.fetchone()
+        print('let\'s remind ourselves what fecthone() does')
+        print(test)
 
         # If username is already in database
         for user in users:
@@ -191,7 +188,6 @@ def register():
 
     # User reached route via POST 
     if request.method == "POST":
-
         # Backend validate form / check for errors
         error0 = "Sorry, there was an error registering."
         error1 = "Username must be 3 characters or more."
@@ -214,7 +210,6 @@ def register():
         all_users = db_extract(db)
 
         # Loop through all usernames, check against received username from /registration
-        
         for users in all_users:
             if users['username'] == username:
                 userNameError = "Sorry, username is already taken"
@@ -252,7 +247,6 @@ def add():
     user = get_user(db, session['user_id'])
 
     if request.method == 'POST':
-
         category = request.form.get('category')
         item = request.form.get('item')
         location = request.form.get('location')
@@ -273,7 +267,6 @@ def add():
         if location == "":
             return render_template('add.html', error2=error2)
 
-
         cat_id = get_cat_id(category, db)
 
         db.execute("INSERT INTO store (item, location, comments, catid, userid) \
@@ -292,9 +285,7 @@ def add():
         return render_template('category.html', user=user, userData=user_cat_data, category=category, listlength=thelength, side='sidebar')
 
     else:
-
         return render_template('add.html', user=user, side='sidebar', category=False, page="Add your stuff")
-
 
 @app.route("/category/<value>", methods=['GET'])
 @login_required
@@ -305,7 +296,6 @@ def category(value):
 
     user = get_user(db, session['user_id'])
     userid = session['user_id']
-    # Category is url parameter passed in from html id
 
     if not get_cat_id(value, db):
         return internal_error(404)
@@ -316,7 +306,7 @@ def category(value):
         db.execute("SELECT catid FROM categories WHERE category=%(category)s", {'category': category})
         catid = db.fetchone()['catid']
   
-        # Get store table data where userid = userid AND category=category id number
+        # Get 'store' table data where userid = userid AND catid=category id number
         db.execute("SELECT * FROM store WHERE userid=%(userid)s AND catid=%(catid)s", \
             {"userid": userid, "catid": catid})
 
@@ -342,7 +332,7 @@ def all():
     userid = session['user_id']
 
     try:
-        # Select all from s'tore' table and 'categories' table where userid is current userid
+        # Select all from 'store' table and 'categories' table where userid is current userid
         db.execute("SELECT item, itemid, location, comments, userid, store.catid, category FROM store INNER JOIN categories on categories.catid=store.catid WHERE userid=%(userid)s", \
             {'userid': userid} )
 
@@ -356,8 +346,6 @@ def all():
     except Exception as e:
         print(e)
         return render_template('index.html', category=False, page="Add your stuff")
-
-
 
 # Edit or delete entry function
 @app.route("/delete", methods=['POST'])
@@ -417,7 +405,6 @@ def edit(item_id):
         if user_id == item_data[0]['userid'] and int(item_id) == item_data[0]['itemid']:
                 # Return edit page with fields completed with previously entered info
                 return render_template('/edit.html', user=user, userData=item_data, side='sidebar', category=False, page="Edit")
-
         else: 
             return sorry(message='There was an error matching this item to your account.')
     
@@ -426,46 +413,46 @@ def edit(item_id):
         print(e)
         return sorry(message='There was an error matching this item to your account.')
 
-# Function allows user to make edits to entries, but Post request only.
-# Second step of process: receives form of the changes made, updates database
+# Function allows user to make edits to entries.  Post request only.
+# Second step of process: receives form of the changes made, updates database.
 @app.route("/change", methods=['POST'])
 @login_required
 def change():
-        try:
-            db = mysql.connection.cursor()
+    try:
+        db = mysql.connection.cursor()
 
-            user_id = session['user_id']
-            # Receive post request
-            received_changes=request.get_json()
-            item_id = int(received_changes['itemId'])
-       
-            # Make sql query of item, and retrieve all data in its row
-            item_data = item_query(item_id, db)
+        user_id = session['user_id']
+        # Receive post request
+        received_changes=request.get_json()
+        item_id = int(received_changes['itemId'])
+   
+        # Make sql query of item, and retrieve all data in its row
+        item_data = item_query(item_id, db)
 
-            # Does current user own selected entry (itemid)?      
-            if user_id == item_data[0]['userid'] and item_id == item_data[0]['itemid']:
-                
-                # Get new, possibly updated category
-                category = received_changes['category']
-                location = received_changes['location']
-                comments = received_changes['comments']
-                # Call helper function
-                cat_id = get_cat_id(category, db)
-        
-                db.execute("UPDATE store SET catid=%(catId)s,location=%(location)s, \
-                comments=%(comments)s WHERE itemid=%(itemId)s AND userid = %(userid)s", {'itemId': item_id, 'userid': session['user_id'],\
-                'catId': cat_id, 'location': location, 'comments': comments})
+        # Does current user own selected entry (itemid)?      
+        if user_id == item_data[0]['userid'] and item_id == item_data[0]['itemid']:
+            
+            # Get new, possibly updated category
+            category = received_changes['category']
+            location = received_changes['location']
+            comments = received_changes['comments']
+            # Call helper function
+            cat_id = get_cat_id(category, db)
+    
+            db.execute("UPDATE store SET catid=%(catId)s,location=%(location)s, \
+            comments=%(comments)s WHERE itemid=%(itemId)s AND userid = %(userid)s", {'itemId': item_id, 'userid': session['user_id'],\
+            'catId': cat_id, 'location': location, 'comments': comments})
 
-                mysql.connection.commit()
-                
-                return "True"
-            else:
-                return "False"
+            mysql.connection.commit()
+            
+            return "True"
+        else:
+            return "False"
 
-        # If any errors, render index page
-        except Exception as e:
-            print(e)
-            return render_template('index.html', category=False, page="Find your stuff")
+    # If any errors, render index page
+    except Exception as e:
+        print(e)
+        return render_template('index.html', category=False, page="Find your stuff")
 
 if __name__ == '__main__':
     app.run(debug=True)
